@@ -1,0 +1,30 @@
+{
+  "name": "emurgohk_website",
+  "version": "1.0.0",
+  "description": "EmurgoHK Website",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "website": "http-server -p 8080 docs/",
+    "docs": "http-server -p 8081 HELP/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmurgoHK/website.git"
+  },
+  "keywords": [
+    "EmurgoHK",
+    "Website"
+  ],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/EmurgoHK/website/issues"
+  },
+  "homepage": "https://github.com/EmurgoHK/website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
