@@ -1,0 +1,3146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+	<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Solana - Responsive Multipurpose Template</title>
+
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+
+	<style type="text/css" media="screen">
+		p, table, hr, .box {
+			margin-bottom:25px;
+		}
+		.box p {
+			margin-bottom:10px;
+		}
+		.center_img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+		.required {
+			color: #F00;
+			font-size: 12px;
+			font-weight: bold;	
+		}
+	</style>
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+	</head>
+
+	<body>
+	<div class="container">
+		<h3 class="center alt">&ldquo;Solana - Responsive HTML &amp; CSS Template&rdquo; Documentation by &ldquo;acbgomel&rdquo; v1.0</h3>
+		<hr>
+		<h1 class="center">&ldquo;Solana Theme Documentation&rdquo;</h1>
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top"> <strong> Created: 12/09/2013<br>
+					By: abcgomel<br>
+					Email: <a href="mailto:abcgomel@gmail.com">abcgomel@gmail.com</a> </strong> </p>
+			</div>
+			<!-- end div .span-6 -->
+			
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/abcgomel" target="_blank">here</a>.</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+		
+		<hr>
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol>
+			<li><a href="#1">Template overview</a></li>
+			<li><a href="#2">Static elements</a></li>
+            <li><a href="#3">Columns</a></li>
+            <li><a href="#11">Icons</a></li>
+            <li><a href="#4">Portfolio</a></li>
+            <li><a href="#5">Forms</a></li>
+            <li><a href="#6">CSS in the template</a></li>
+            <li><a href="#7">JavaScript in the template</a></li>
+            <li><a href="#8">PHP in the template</a></li>
+            <li><a href="#9">Psd files</a></li>
+            <li><a href="#10">Sources, credits and helpfull links</a></li>
+ 		</ol>
+    <hr>
+		<h2 id="1"><strong>Template overview</strong> - <a href="#toc">top</a></h2>
+		<p>Hi, firstly I would like to thank you for purchasing my template. In this section I`ll briefly introduce Solana features. So lets start.</p>
+		<p><strong>Template features:</strong></p>
+		<ul>
+			<li>Fully Responsive Design</li>
+			<li>Retina Ready </li>
+			<li>Unlimited Color Options</li>
+			<li>Valid HTML5, CSS3</li>
+			<li>4 Slider Variations</li>
+			<li>2 Premium Sliders included and Carousel slider</li>
+			<li>Unlimited Colors ( just change color code)</li>
+			<li>7 premade colors (very easy to customize your own color)</li>
+			<li>10 backgrounds patterns</li>
+			<li>Clean coded and well documented</li>
+			<li>Skeleton CSS Framework</li>
+			<li>SEO Optimized</li>
+			<li>Responsive Filterable Portfolio</li>
+			<li>Responsive Pricing Table</li>
+			<li>Touch, Swipe and Tap support for all elements</li>
+			<li>Working Flickr Feeds</li>
+			<li>Working php contact form with validation</li>
+			<li>Over 390 icons</li>
+			<li>Cross Browser compatible</li>
+			<li>Thoroughly documented</li>
+			<li>Google Fonts</li>
+			<li>jQuery powered</li>
+			<li>PSDs included in package (16 Layered  PSD Files)</li>
+		  <li>...</li>
+	  </ul>
+		<p>To make some order in this documentation I`ll start with all static elements on the template and then I`ll cover other problematic elements.</p>
+        <hr>
+		<h2 id="2"><strong>Static elements</strong> - <a href="#toc">top</a></h2>
+		<p>Usually on the website there are some static elements such us logo, navigation, footer etc. In this section I`ll cover the static elements of Solana html template. Here you could find info how to change the logo, how to edit navigation, how to edit footer...</p>
+        <hr>
+        <h3><strong><br><br>Logo</strong></h3>
+        <p>This code below stands for the logo section</p>
+        
+		<pre class="brush: html;" id="front-html-structure-pre">
+							&lt;div class=&quot;header-logo-container &quot;&gt;
+								&lt;div class=&quot;logo-container&quot;&gt;	
+									&lt;a href=&quot;index.html&quot; class=&quot;logo&quot; rel=&quot;home&quot; title=&quot;Home&quot;&gt;
+										&lt;img src=&quot;images/logo-retina.png&quot; alt=&quot;solana&quot; &gt;
+									&lt;/a&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+		</pre>
+		and code in footer.
+		<pre class="brush: html;" id="front-html-structure-pre">
+						&lt;div class=&quot;logo-footer-container&quot;&gt;	
+							&lt;a href=&quot;index.html&quot; class=&quot;logo&quot; rel=&quot;home&quot; title=&quot;Home&quot;&gt;
+								&lt;img src=&quot;images/logo-retina.png&quot; alt=&quot;solana&quot; &gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
+		</pre>
+		
+		
+        <p>here is the CSS code for the Logo:</p>
+		<pre class="brush: css">
+/* LOGO
+================================================== */
+.logo-footer-container {
+	background-color:#565a60;
+}
+.logo-footer-container a{
+	margin:0;
+	padding: 55px 50px;
+}
+.logo {
+	width: 100px;
+	height: 20px;
+	margin-left: 27px;
+	margin-top: 27px;
+	margin-bottom: 25px;
+	display: block;
+}
+</pre>
+        <hr>
+        
+		<h3><strong><br><br>Change color</strong></h3>
+		<p>If you want to change color of the template on any preset, you must change css  link.</p>
+		<p>Example, change yellow color to blue</p>
+		
+				to:
+		<pre class="brush: html">		
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/colors/yellow.css&quot; id=&quot;colors&quot;&gt;
+		</pre>			
+				after:
+		<pre class="brush: html">		
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/colors/blue.css&quot; id=&quot;colors&quot;&gt;
+		</pre>		
+		<p>All predefined colors are in the folder "css/colors/"</p>
+		
+		<p>If you want to add any of your own color, you need change Hex code of color in css file</p>
+		
+        <hr>
+				<h3><strong><br><br>Change layout</strong></h3>
+		<p>If you want to change layout of the template on any preset, you must change css  link.</p>
+		<p>Example, change wide layout color to boxed layout</p>
+		
+				to:
+		<pre class="brush: html">		
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/layout/wide.css&quot; id=&quot;layout&quot;&gt;
+		</pre>			
+				after:
+		<pre class="brush: html">		
+				&lt;link rel=&quot;stylesheet&quot; href=&quot;css/layout/boxed.css&quot; id=&quot;layout&quot;&gt;
+		</pre>		
+		<p>All predefined colors are in the folder "css/colors/"</p>
+		
+		<p>If you want to add any of your own color, you need change Hex code of color in css file</p>
+		
+        <hr>
+        
+		<h3><strong><br><br>Change background</strong></h3>
+		<p>If you want to change background of the template on any preset, you must replace bg-body.jpg to your image, in folder "images". All predefined background are in the folder "images/bg/"</p>
+		
+        <hr>
+		
+		<h3><strong><br><br>Main Navigation</strong></h3>
+		<p>In this template I have used some jQuery improved dropdown menu but the menu itself is easy to edit. Its structure base on a nested unorederd lists structure. Your code should look like the following.</p>
+		<pre class="brush: html">
+					&lt;!-- TOP MENU --&gt;
+								&lt;nav id=&quot;main-nav&quot;&gt;
+									&lt;ul class=&quot;sf-menu clearfix&quot;&gt;
+										&lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+											&lt;ul&gt;
+												&lt;li&gt;&lt;a href=&quot;index2.html&quot;&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;index3.html&quot;&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;index4.html&quot;&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;index5.html&quot;&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+											&lt;/ul&gt;
+										&lt;/li&gt;
+										&lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Features&lt;/a&gt;
+											&lt;ul&gt;
+												&lt;li&gt;&lt;a href=&quot;about-us.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;services.html&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Elements&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;icons.html&quot;&gt;Icons&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;pricing-tables.html&quot;&gt;Pricing tables&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404 Error&lt;/a&gt;&lt;/li&gt;
+
+											&lt;/ul&gt;
+										&lt;/li&gt;
+										&lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;Portfolio&lt;/a&gt;
+											&lt;ul&gt;
+												&lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;2 column&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;portfolio3.html&quot;&gt;3 column&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;portfolio4.html&quot;&gt;4 column&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;portfolio-single.html&quot;&gt;Portfolio single&lt;/a&gt;&lt;/li&gt;
+												&lt;li&gt;&lt;a href=&quot;#&quot;&gt;3D level menu&lt;/a&gt;
+													&lt;ul&gt;
+														&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+														&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+													&lt;/ul&gt;
+												&lt;/li&gt;
+											&lt;/ul&gt;
+										&lt;/li&gt;
+										&lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;
+											&lt;ul&gt;
+												&lt;li&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Blog-single&lt;/a&gt;&lt;/li&gt;
+											&lt;/ul&gt;
+										&lt;/li&gt;
+										&lt;li &gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+										
+								  &lt;/ul&gt;
+								&lt;/nav&gt;
+
+				</pre>
+
+		<hr>
+			        <p>here is the CSS code for the Main Navigation:</p>
+        
+        <pre class="brush: css">
+/* MAIN MENU
+================================================== */
+.header-rl-container {
+	width:771px;
+}
+#main-nav {
+	float:left;
+}
+nav#main-nav select {
+	display:none; /* for mobile */
+}
+#main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+#main-nav li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+}
+#main-nav ul li li:first-child {
+	border-top:none;
+}
+#main-nav .current > a {
+	color:#414146;
+	background-color:#ffea00;
+}
+#main-nav .current li.current a, #main-nav .current li.current li.current a {
+	color:#414146 !important;
+	margin-top:0;
+	border-top: none;
+	padding-top:12px;
+	background-color:#ffea00;/**/
+	
+}
+#main-nav a:hover {
+	text-shadow: none;
+	color:#414146;
+	background-color:#ffea00;
+}
+#main-nav a {
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	position: relative;
+	text-decoration: none;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+.sf-menu li > a {
+	padding-bottom:30px !important;
+	text-transform: uppercase;
+	padding-right:17px ;
+	padding-left: 17px ;
+	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+
+}
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style:	none;
+}
+.sf-menu {
+	line-height: 1.0;
+}
+.sf-menu ul {
+	position: absolute;
+	top: -999em;
+	margin-top: 0px !important;
+}
+#main-nav ul.sf-menu li:first-child ul {
+	margin-left: 0px !important;
+}
+.sf-menu ul ul {
+	margin: 0 !important;
+}
+.sf-menu ul li {
+	width: 150px;
+}
+.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left: 0px;
+	top: /*5.5em*/74px; /* match top ul list item height */
+	z-index: 99;
+	text-shadow:none;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left: 150px  !important; /* match ul width */
+	top: 0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left: 100em; /* match ul width */
+	top: 0;
+}
+.sf-menu li li  {
+	margin: 0 !important;
+	background-color: #535961;
+}
+#main-nav .current li.current li a{
+    background-color: #535961;
+    color: #fff;
+}
+.sf-menu li li a {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	text-transform: none !important;
+	text-shadow: none !important;
+	font-size: 12px !important;
+	padding-left:15px !important;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	margin-right:0px !important;
+	margin-left: 0px !important;
+	color:#fff !important; /*14*/
+}
+.sf-menu li li a:hover{
+	color: #414146 !important;
+	background: #ffea00 !important;
+}
+</pre>
+		<hr>
+		
+		<h3><strong><br><br>Footer Style</strong></h3>
+		<p>The footer section source code:</p>
+		<pre class="brush: html">
+&lt;footer&gt;
+		&lt;div class=&quot;footer-content-bg&quot;&gt;
+			&lt;div class=&quot;container clearfix&quot;&gt;
+				&lt;div class=&quot;one-third-footer-spec column omega&quot;&gt;
+
+						&lt;div class=&quot;logo-footer-container&quot;&gt;	
+							&lt;a href=&quot;index.html&quot; class=&quot;logo&quot; rel=&quot;home&quot; title=&quot;Home&quot;&gt;
+								&lt;img src=&quot;images/logo-retina.png&quot; alt=&quot;solana&quot; &gt;
+							&lt;/a&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;two-thirds-footer-spec column alpha&quot;&gt;
+
+
+					&lt;p class=&quot;footer-content-container m-none&quot;&gt;WE PROVIDE AWESOME DIGITAL &lt;strong&gt;SERVICES&lt;/strong&gt;&lt;/p&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;container clearfix&quot;&gt;
+				&lt;div class=&quot;one-third column&quot;&gt;
+					&lt;div class=&quot;footer-social-text-container&quot;&gt;
+						&lt;p class=&quot;title-font-24&quot;&gt;SAY &lt;strong&gt;HELLO&lt;/strong&gt;&lt;/p&gt;
+						&lt;p class=&quot;title-font-12&quot;&gt;WE'D LOVE HEARING FROM YOU&lt;/p&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;footer-social-links-container&quot;&gt;	
+						&lt;ul class=&quot;social-links clearfix&quot;&gt;
+							&lt;li&gt;&lt;a class=&quot;facebook-link&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;skype-link&quot; target=&quot;_blank&quot; title=&quot;Skype&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;twitter-link&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;flickr-link&quot; target=&quot;_blank&quot; title=&quot;Flickr&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;vimeo-link&quot; target=&quot;_blank&quot; title=&quot;Vimeo&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;linkedin-link&quot; target=&quot;_blank&quot; title=&quot;linkedin&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;pintrest-link&quot; target=&quot;_blank&quot; title=&quot;pintrest&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a class=&quot;googleplus-link&quot; target=&quot;_blank&quot; title=&quot;googleplus&quot; href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+					
+					
+				&lt;/div&gt;
+				&lt;div class=&quot;one-third column &quot;&gt;
+					&lt;h3 class=&quot;caption footer-block&quot;&gt;LATEST &lt;span class=&quot;bold&quot;&gt;POST&lt;/span&gt;&lt;/h3&gt;
+					&lt;ul class=&quot;latest-post&quot;&gt;
+						&lt;li class=&quot;standart-post&quot;&gt;
+							&lt;h4 class=&quot;title-post-footer&quot;&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Donec id elit&lt;/a&gt;&lt;/h4&gt;
+							&lt;h4 class=&quot;date-post-footer&quot;&gt;July 10, 2013&lt;/h4&gt;
+						&lt;/li&gt;
+						&lt;li class=&quot;image-post&quot;&gt;
+							&lt;h4 class=&quot;title-post-footer&quot;&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Donec id elit&lt;/a&gt;&lt;/h4&gt;
+							&lt;h4 class=&quot;date-post-footer&quot;&gt;July 10, 2013&lt;/h4&gt;
+						&lt;/li&gt;
+						&lt;li class=&quot;video-post&quot;&gt;
+							&lt;h4 class=&quot;title-post-footer&quot;&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Donec id elit&lt;/a&gt;&lt;/h4&gt;
+							&lt;h4 class=&quot;date-post-footer&quot;&gt;July 10, 2013&lt;/h4&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;one-third column &quot;&gt;
+					&lt;h3 class=&quot;caption footer-block&quot;&gt;CONTACT &lt;span class=&quot;bold&quot;&gt;INFO&lt;/span&gt;&lt;/h3&gt;
+					&lt;ul class=&quot;footer-contact-info&quot;&gt;
+						&lt;li class=&quot;footer-loc&quot;&gt;
+							Corporation, 123 Some Ave, Suite 700,  New York
+						&lt;/li&gt;
+						&lt;li class=&quot;footer-phone&quot;&gt;
+							(123) 456-7890&lt;br&gt;(123) 987-6540
+						&lt;/li&gt;
+						&lt;li class=&quot;footer-mail&quot;&gt;
+							&lt;a href=&quot;#&quot;&gt;email@felius.com&lt;/a&gt;&lt;br&gt;
+							&lt;a href=&quot;#&quot;&gt;email@optimas.com&lt;/a&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+					 
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;footer-copyright-bg&quot;&gt;
+			&lt;div class=&quot;container &quot;&gt;
+				&lt;div class=&quot;sixteen columns clearfix&quot;&gt;
+					&lt;div class=&quot;footer-menu-container&quot;&gt;
+						&lt;nav class=&quot;clearfix&quot; id=&quot;footer-nav&quot;&gt;
+							&lt;ul class=&quot;footer-menu&quot;&gt;
+								&lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+								&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Purchase&lt;/a&gt;&lt;/li&gt;
+							&lt;/ul&gt;
+						&lt;/nav&gt;
+					&lt;/div&gt;	
+					&lt;div class=&quot;footer-copyright-container right-text&quot;&gt;
+					&amp;copy; Solan&lt;span class=&quot;yellow&quot;&gt;a&lt;/span&gt; - Build with Passion by &lt;a class=&quot;author&quot; href=&quot;http://themeforest.net/user/abcgomel/portfolio&quot;&gt;AbcGomel&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;	
+</pre>
+		<p>The css code for the Footer:</p>
+		<pre class="brush: css">
+/* FOOTER
+================================================== */
+.yellow {
+	color:#ffea00;
+}
+.title-font-24 {
+	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	color:#fdfdfd;
+	font-size:24px;
+	line-height:28px;
+	margin-bottom: 8px;
+}
+.title-font-12 {
+	margin-top: 8px;
+	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	color:#d7d7d7;
+	font-size:12px;
+}
+.footer-social-text-container {
+	margin-bottom: 32px;
+    margin-top: 38px;
+}
+.footer-content-container {
+	background-color:#fff;
+	padding:51px 40px 51px 40px;
+	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+	color:#414146;
+	font-size:24px;
+	line-height:28px;
+	
+	  -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+footer {
+	color:#d1d1d1;
+}
+.caption.footer-block {
+	color:#414146;
+	background-color:#fff;
+	display:inline-block;
+	padding:25px;
+	margin:0;
+}
+.right {
+	float:right;	
+}
+.left {
+	float:left;
+}
+.right-text {
+	text-align:right;	
+}
+.center-text {
+	text-align:center;	
+}
+.footer-content-bg {
+	background-color: #414146;
+}
+footer .caption {
+	float:none;
+	color:#fff;
+}
+.logo-footer {
+	background-image: url(../images/logo-footer.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	height: 15px;
+	width: 88px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+footer h3, footer h4 {
+	font-weight:normal;
+}
+
+/******************************************************/
+ul.latest-post li{
+	display: block;
+	margin-left: 56px;
+	padding-top: 6px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	position:relative;
+}
+ul.footer-contact-info li{
+	 margin: 0;
+    padding: 0;
+	display: block;
+	margin-left: 56px;
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 11px;
+	padding-left: 15px;
+	position:relative;
+	min-height:56px;
+	  -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.standart-post:before, .standart-post:after{
+	content:'';
+	position:absolute;
+}
+.standart-post:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon-standart-post.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.image-post:before, .image-post:after{
+	content:'';
+	position:absolute;
+}
+.image-post:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon-image-post.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.video-post:before, .video-post:after{
+	content:'';
+	position:absolute;
+}
+.video-post:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon-video-post.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.footer-loc:before, .footer-loc:after{
+	content:'';
+	position:absolute;
+}
+.footer-loc:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon_footer_loc.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.footer-phone:before, .footer-phone:after{
+	content:'';
+	position:absolute;
+}
+.footer-phone:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon_footer_phone.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.footer-mail:before, .footer-mail:after{
+	content:'';
+	position:absolute;
+}
+.footer-mail:after{
+	top: 0px;
+	left: -56px;
+	width: 56px;
+	height: 56px;
+	background-image: url(../images/icon_footer_mail.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #565a60;
+}
+.latest-post h4 {
+	line-height:18px;
+	padding:0;
+	margin:0;
+}
+.latest-post h4 a {
+	color:#fff;
+	font-weight:normal;
+	font-size:12px;
+}
+.latest-post h4 a:hover {
+	color:#ffea00;
+}
+/******************************************************/
+ul.latest-post, ul.footer-contact-info {
+	padding:0;
+	margin:0;
+	
+}
+.date-post-footer {
+	color:#d1d1d1;
+	font-size:11px;
+	line-height:11px;
+	font-style:italic;
+}
+.footer-mail a{
+    color:#fff;
+}
+.footer-mail a:hover{
+    color:#ffea00;
+}
+.footer-copyright-bg {
+	color:#a1a1a1;
+	background-color: #27282a;
+}
+.footer-copyright-bg .footer-menu-container {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	float:left;	
+}
+.footer-copyright-container {
+	float:right;
+	margin-top: 26px;
+}
+.footer-menu {
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+}
+#footer-nav li {
+    background: none repeat scroll 0 0 transparent;
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 -3px 0 0;
+}
+#footer-nav li:first-child a {
+    padding-left: 0;
+}
+#footer-nav li a {
+    display: block;
+    padding: 0 15px;
+	color:#a1a1a1;
+	text-transform: uppercase;
+	font-size:14px;
+	font-family: 'OswaldLight', Arial, Helvetica, sans-serif;
+}
+#footer-nav li a:hover {
+	color:#ffea00;
+}
+#footer-nav li:last-child a {
+    padding-right: 0;
+}
+a.author {
+	color:#cecece;
+}
+a.author:hover {
+	color:#ffea00;
+}
+footer a.r-m-plus {
+	color:#fff;
+}
+footer .r-m-plus:after{
+	background:#404040;
+	background-image: url(../images/plus.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/* BACK TO TOP BUTTON
+================================================== */
+/******BACK TO TOP BUTTON******/
+#back-top {
+	position: fixed;
+	bottom: 45px;
+    right: 25px;
+	padding:0;
+	margin:0;
+	z-index: 999999999;
+}
+#back-top a {
+	text-decoration: none;
+	width: 38px;
+	height: 38px;
+	display: block;
+	background-color: #2f343a;
+	background-image: url(../images/back-top.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index:9999999;
+
+}
+#back-top a:hover {
+	background-color: #ffea00;
+	background-image: url(../images/back-top-black.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+		</pre>
+
+		<hr>
+		
+		
+		
+		
+		
+		
+				<h3><strong><br><br>Flexslider Code</strong></h3>
+		<p>HTML code for Flexslider (first theme(index.html)):</p>
+				<p>This Template Comes With Sequence slider (2 themes) &amp; Flexslider (2 themes). Both Sliders are easy to use and update.</p>
+			<pre class="brush: html">
+&lt;!-- SLIDER --&gt;
+ &lt;div class=&quot;slider-1 clearfix&quot;&gt;
+   
+     &lt;div class=&quot;flex-container&quot;&gt;
+       &lt;div class=&quot;flexslider loading&quot;&gt;
+        &lt;ul class=&quot;slides&quot;&gt;
+          &lt;li style=&quot;background:url(images/sliders/slider-1/slider-bg-1.jpg) no-repeat;background-position:50% 0&quot;&gt;
+          
+           &lt;div class=&quot;container&quot;&gt;
+           &lt;div class=&quot;sixteen columns contain&quot;&gt;
+            
+             &lt;h2 data-toptitle=&quot;36%&quot;&gt;MULTIPURPOSE THEME&lt;/h2&gt;
+             &lt;p data-bottomtext=&quot;39%&quot;&gt;CRAS JUSTO ODIO, DAPIBUS AC FACILISIS &lt;/p&gt;
+             &lt;div class=&quot;links&quot; data-bottomlinks=&quot;30%&quot;&gt;
+               &lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+             &lt;/div&gt;
+             
+             &lt;img src=&quot;images/sliders/slider-1/slider-item-1.png&quot; class=&quot;item&quot; alt=&quot;slide-item&quot;  data-topimage=&quot;21%&quot;/&gt;
+           
+           &lt;/div&gt;
+         &lt;/div&gt;&lt;!-- End Container --&gt;
+          
+          &lt;/li&gt;&lt;!-- End item --&gt;
+          
+          
+          &lt;li style=&quot;background:url(images/sliders/slider-1/slider-bg-2.jpg) no-repeat; background-position:50% 0&quot;&gt;
+          
+          &lt;div class=&quot;container&quot;&gt;
+           &lt;div class=&quot;sixteen columns contain&quot;&gt;
+            
+             &lt;h2 data-toptitle=&quot;36%&quot;&gt;LOREM IPSUM&lt;/h2&gt;
+             &lt;p data-bottomtext=&quot;39%&quot;&gt;CRAS JUSTO ODIO, DAPIBUS AC FACILISIS &lt;/p&gt;
+             &lt;div class=&quot;links&quot; data-bottomlinks=&quot;30%&quot;&gt;
+				&lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+             &lt;/div&gt;
+
+           &lt;/div&gt;
+         &lt;/div&gt;&lt;!-- End Container --&gt;
+          
+         &lt;/li&gt;&lt;!-- End item --&gt;
+         
+         
+         &lt;li style=&quot;background:url(images/sliders/slider-1/slider-bg-3.jpg) no-repeat; background-position:50% 0&quot;&gt;
+          
+          &lt;div class=&quot;container&quot;&gt;
+           &lt;div class=&quot;sixteen columns contain&quot;&gt;
+            
+             &lt;h2 data-toptitle=&quot;36%&quot;&gt;ALES MAECENAS&lt;/h2&gt;
+             &lt;p data-bottomtext=&quot;39%&quot;&gt;CRAS JUSTO ODIO, DAPIBUS AC FACILISIS &lt;/p&gt;
+             &lt;div class=&quot;links&quot; data-bottomlinks=&quot;30%&quot;&gt;
+				&lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+             &lt;/div&gt;
+             
+             &lt;img src=&quot;images/sliders/slider-1/slider-item-2.png&quot; class=&quot;item&quot; alt=&quot;slide-item&quot; data-topimage=&quot;24%&quot;/&gt;
+           
+           &lt;/div&gt;
+         &lt;/div&gt;&lt;!-- End Container --&gt;
+          
+         &lt;/li&gt;&lt;!-- End item --&gt;
+      
+         
+        &lt;/ul&gt;
+       &lt;/div&gt;
+      &lt;/div&gt;
+     
+   &lt;/div&gt;&lt;!-- End slider --&gt;
+	
+</pre>
+	<p>Css code for Flexslider (first theme):</p>
+	<p>Css for Flexslider is very big. It located in folder "css" and has name "flexslider.css"</p>
+	
+	<hr>
+			<p>HTML code for Flexslider (second theme(index2.html)):</p>
+			<pre class="brush: html">
+&lt;!-- SLIDER --&gt;
+	&lt;div id=&quot;slider-container&quot; class=&quot;container clearfix&quot;&gt;
+		&lt;div class=&quot;sixteen columns &quot;&gt;
+					&lt;div class=&quot;flexslider&quot;&gt;
+						&lt;ul class=&quot;slides&quot;&gt;
+							&lt;li&gt;
+								&lt;img src=&quot;images/sliders/slider-2/img-gallery.jpg&quot; alt=&quot;image&quot; /&gt;
+								&lt;div class=&quot;flex-caption&quot;&gt;
+
+										&lt;div class=&quot;title&quot;&gt;
+											&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;LOREM&lt;/span&gt; IPSUM&lt;/h2&gt;
+											&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+										&lt;/div&gt;
+										&lt;div class=&quot;subtitle-3&quot;&gt;
+											&lt;a href=&quot;#&quot; class=&quot;button medium r-m-plus r-m-full&quot;&gt;READ MORE&lt;/a&gt;
+										&lt;/div&gt;
+									
+								&lt;/div&gt;
+							&lt;/li&gt;
+							&lt;li&gt;
+								&lt;img src=&quot;images/sliders/slider-2/img-gallery2.jpg&quot; alt=&quot;image&quot; /&gt;
+								&lt;div class=&quot;flex-caption&quot;&gt;
+
+									
+										&lt;div class=&quot;title&quot;&gt;
+											&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;SIT&lt;/span&gt; LECTUS AMET&lt;/h2&gt;
+											&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+										&lt;/div&gt;
+										&lt;div class=&quot;subtitle-3&quot;&gt;
+											&lt;a href=&quot;#&quot; class=&quot;button medium r-m-plus r-m-full&quot;&gt;READ MORE&lt;/a&gt;
+										&lt;/div&gt;
+									
+								&lt;/div&gt;
+							&lt;/li&gt;
+							&lt;li&gt;
+								&lt;img src=&quot;images/sliders/slider-2/img-gallery3.jpg&quot; alt=&quot;image&quot; /&gt;
+								&lt;div class=&quot;flex-caption&quot;&gt;
+
+										&lt;div class=&quot;title&quot;&gt;
+											&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;ALES &lt;/span&gt; MAECENAS&lt;/h2&gt;
+											&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Sit voluptatem accusantium doloremque laudantium&lt;/p&gt;
+										&lt;/div&gt;
+										&lt;div class=&quot;subtitle-3&quot;&gt;
+											&lt;a href=&quot;#&quot; class=&quot;button medium r-m-plus r-m-full&quot;&gt;READ MORE&lt;/a&gt;
+										&lt;/div&gt;
+									
+								&lt;/div&gt;
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+		&lt;/div&gt;		
+	&lt;/div&gt;&lt;!-- End slider --&gt;
+	
+</pre>
+	<p>Css code for Flexslider (second theme):</p>
+	<p>Css for Flexslider is very big. It located in folder "css" and has name "flexslider2.css"</p>
+		<hr>
+
+		<h3><strong><br><br>Sequence slider Code</strong></h3>
+
+		<p>Html code for Sequence slider (1 theme (index3.html)):</p>
+		<pre class="brush: html">
+&lt;!-- SLIDER --&gt;
+	&lt;div id=&quot;slider-container&quot; class=&quot;container clearfix&quot;&gt;
+		&lt;div class=&quot;sixteen columns&quot;&gt;
+			&lt;div id=&quot;sequence-theme&quot;&gt;
+
+				&lt;div id=&quot;sequence&quot;&gt;
+
+					&lt;ul&gt;
+					&lt;!-- SLIDE --&gt;
+						&lt;li class=&quot;animate-in&quot;&gt;
+							&lt;img class=&quot;bg-slide&quot; src=&quot;images/bg-1-1.jpg&quot; alt=&quot;bg 1&quot; /&gt;
+
+							&lt;img class=&quot;model&quot; src=&quot;images/model1-1.png&quot; alt=&quot;Model 1&quot; /&gt;
+							
+							&lt;div class=&quot;title&quot;&gt;
+								&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;SIT&lt;/span&gt; LECTUS AMET&lt;/h2&gt;
+								&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;subtitle-3&quot;&gt;
+								&lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+							&lt;/div&gt;
+
+						&lt;/li&gt;
+					&lt;!-- SLIDE --&gt;	
+						&lt;li&gt;
+							&lt;img class=&quot;bg-slide&quot; src=&quot;images/bg-2-1.jpg&quot; alt=&quot;bg 2&quot; /&gt;
+
+							&lt;img class=&quot;model&quot; src=&quot;images/model2-1.png&quot; alt=&quot;Model 2&quot; /&gt;
+							
+							&lt;div class=&quot;title&quot;&gt;
+								&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;LOREM&lt;/span&gt; IPSUM&lt;/h2&gt;
+								&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;subtitle-3&quot;&gt;
+								&lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+							&lt;/div&gt;
+							
+						&lt;/li&gt;
+					&lt;!-- SLIDE --&gt;	
+						&lt;li&gt;
+							&lt;img class=&quot;bg-slide&quot; src=&quot;images/bg-3-1.jpg&quot; alt=&quot;bg 3&quot; /&gt;
+
+							&lt;img class=&quot;model&quot; src=&quot;images/model3-1.png&quot; alt=&quot;Model 3&quot; /&gt;
+							
+							&lt;div class=&quot;title&quot;&gt;
+								&lt;h2 &gt;&lt;span class=&quot;bold&quot; &gt;ALES&lt;/span&gt; MAECENAS&lt;/h2&gt;
+								&lt;p class=&quot;subtitle-2&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;subtitle-3&quot;&gt;
+								&lt;a class=&quot;button medium r-m-plus r-m-full&quot; href=&quot;#&quot;&gt;READ MORE&lt;/a&gt;
+							&lt;/div&gt;
+						&lt;/li&gt;
+					&lt;/ul&gt;
+
+				&lt;/div&gt;
+				&lt;div class=&quot;slider-nav-bg&quot;&gt;&lt;/div&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					&lt;li class=&quot;bw-wrapper&quot;&gt;&lt;img  src=&quot;images/tn-model1-1.jpg&quot; alt=&quot;Model 1&quot; /&gt;&lt;/li&gt;
+					&lt;li class=&quot;bw-wrapper&quot;&gt;&lt;img  src=&quot;images/tn-model2-1.jpg&quot; alt=&quot;Model 2&quot; /&gt;&lt;/li&gt;
+					&lt;li class=&quot;bw-wrapper&quot;&gt;&lt;img  src=&quot;images/tn-model3-1.jpg&quot; alt=&quot;Model 3&quot; /&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;div class=&quot;arrows-nav &quot;&gt;
+					&lt;img class=&quot;prev slider1&quot; src=&quot;images/bt-prev.png&quot; alt=&quot;Previous Frame&quot; &gt;&lt;img class=&quot;next slider1&quot; src=&quot;images/bt-next.png&quot; alt=&quot;Next Frame&quot; &gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;		
+	&lt;/div&gt;	
+</pre>
+	<p>Css for Sequence slider (1 theme):</p>
+	<p>Css for Sequence Slider is very big. It located in folder "css" and has name "sequencejs-theme.modern-slide-in.css" and "sequencejs-theme.modern-slide-in-ie.css", and "sequencejs-theme.modern-slide-in-ie8.css"(for Internet Explorer 8 and earlier versions)</p>
+
+		<hr>
+		
+				<p>Html code for Sequence slider (2 theme (index4.html)):</p>
+		<pre class="brush: html">
+&lt;!-- SLIDER --&gt;
+&lt;div class=&quot;container m-bot-50&quot;&gt;
+	&lt;div id=&quot;slider-container&quot; class=&quot;sixteen columns content-container-white sequence-theme-6&quot;&gt;
+		&lt;div id=&quot;sequence-theme&quot;&gt;
+			&lt;div id=&quot;sequence&quot; class=&quot;theme-2&quot;&gt;
+				&lt;ul&gt;
+					&lt;li class=&quot;animate-in&quot;&gt;
+						&lt;h2 class=&quot;title&quot;&gt;Welcome to Solana&lt;/h2&gt;
+						&lt;h3 class=&quot;subtitle&quot;&gt;Multi-purpose Creative Business&lt;/h3&gt;
+						&lt;p class=&quot;subtitle-2 slider-caption&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.&lt;/p&gt;
+						&lt;p class=&quot;subtitle-3&quot;&gt;
+							&lt;a class=&quot;button get-theme&quot; href=&quot;#&quot;&gt;GET THE THEME&lt;/a&gt;
+						&lt;/p&gt;
+						&lt;img class=&quot;model&quot; src=&quot;images/model6-1.png&quot; alt=&quot;Model 1&quot; /&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;h2 class=&quot;title slide-2-light&quot;&gt;Lorem Ipsum&lt;/h2&gt;
+						&lt;h3 class=&quot;subtitle slide-2-bold&quot;&gt;ic fravus sinber&lt;/h3&gt;
+						&lt;p class=&quot;subtitle-2 slide-2-yellow&quot;&gt;&amp;amp; tristiqueve porttitor&lt;/p&gt;
+						&lt;p class=&quot;subtitle-3&quot;&gt;
+							&lt;a class=&quot;button  get-theme&quot; href=&quot;#&quot;&gt;GET THE THEME&lt;/a&gt;
+						&lt;/p&gt;
+						&lt;img class=&quot;model&quot; src=&quot;images/model6-2.png&quot; alt=&quot;Model 2&quot; /&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;h2 class=&quot;title&quot;&gt;Welcome to Solana&lt;/h2&gt;
+						&lt;h3 class=&quot;subtitle &quot;&gt;Multi-purpose Creative Business&lt;/h3&gt;
+						&lt;p class=&quot;subtitle-2 slider-caption&quot;&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.&lt;/p&gt;
+						&lt;p class=&quot;subtitle-3&quot;&gt;
+							&lt;a class=&quot;button  get-theme&quot; href=&quot;#&quot;&gt;GET THE THEME&lt;/a&gt;
+						&lt;/p&gt;
+						&lt;img class=&quot;model&quot; src=&quot;images/model6-3.png&quot; alt=&quot;Model 3&quot; /&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;div class=&quot;arrows-nav &quot;&gt;
+					&lt;img class=&quot;prev slider1&quot; src=&quot;images/bt-prev.png&quot; alt=&quot;Previous Frame&quot; &gt;&lt;img class=&quot;next slider1&quot; src=&quot;images/bt-next.png&quot; alt=&quot;Next Frame&quot; &gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			
+		&lt;/div&gt;	
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+	<p>Css for Sequence slider (2 theme):</p>
+	<p>Css for Sequence Slider is very big. It located in folder "css" and has name "sequencejs-theme.modern-slide-in2.css" and "sequencejs-theme.modern-slide-in2.ie.css" and "sequencejs-theme.modern-slide-in2.ie8.css"(for Internet Explorer 8 and earlier versions)</p>
+
+		<hr>
+				
+	
+		
+		
+		
+		
+		
+		
+
+
+		<h3><strong><br><br>Warning for users of older versions IE</strong></h3>
+		<p>If you dont need this warning, you can simply delete it or change &lt;!--[if lte IE 7]&gt; to &lt;!--[if lte IE 8]&gt; for IE8 message, for example. HTML code for warning for users of older versions IE:</p>
+		<pre class="brush: html">
+			&lt;!--[if lte IE 7]&gt;
+	&lt;div id=&quot;ie-container&quot;&gt;
+		&lt;div id=&quot;ie-cont-close&quot;&gt;
+			&lt;a href='#' onclick='javascript&amp;#058;this.parentNode.parentNode.style.display=&quot;none&quot;; return false;'&gt;&lt;img src='images/ie-warning-close.jpg' style='border: none;' alt='Close'&gt;&lt;/a&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;ie-cont-content&quot; &gt;
+			&lt;div id=&quot;ie-cont-warning&quot;&gt;
+				&lt;img src='images/ie-warning.jpg' alt='Warning!'&gt;
+			&lt;/div&gt;
+			&lt;div id=&quot;ie-cont-text&quot; &gt;
+				&lt;div id=&quot;ie-text-bold&quot;&gt;
+					You are using an outdated browser
+				&lt;/div&gt;
+				&lt;div id=&quot;ie-text&quot;&gt;
+					For a better experience using this site, please upgrade to a modern web browser.
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div id=&quot;ie-cont-brows&quot; &gt;
+				&lt;a href='http://www.firefox.com' target='_blank'&gt;&lt;img src='images/ie-warning-firefox.jpg' alt='Download Firefox'&gt;&lt;/a&gt;
+				&lt;a href='http://www.opera.com/download/' target='_blank'&gt;&lt;img src='images/ie-warning-opera.jpg' alt='Download Opera'&gt;&lt;/a&gt;
+				&lt;a href='http://www.apple.com/safari/download/' target='_blank'&gt;&lt;img src='images/ie-warning-safari.jpg' alt='Download Safari'&gt;&lt;/a&gt;
+				&lt;a href='http://www.google.com/chrome' target='_blank'&gt;&lt;img src='images/ie-warning-chrome.jpg' alt='Download Google Chrome'&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;![endif]--&gt;
+		</pre>
+		<p>Css code for warning for users of older versions IE:</p>
+		<p>Css for "warning for users of older versions IE" located in folder "css" and has name "ie-warning.css"</p>
+	
+
+	
+		<h2 id="3"><strong>Columns</strong> - <a href="#toc">top</a></h2>
+		<p>This template has a responsive layout optimized for all resolutions, based on Skeleton V1.1 grid. All the elements in the code are named with appropriate IDs and Classes, so you can easily find what you need to edit in the HTML and the CSS.</p>
+	<p><b>All detail information and documentation of Skeleton grid system - <a href="http://www.getskeleton.com">http://www.getskeleton.com</a></b></p>
+	
+	
+		<h2 id="11"><strong>Icons</strong> - <a href="#toc">top</a></h2>
+		<p>In addition to usual image icons Solana theme integrate <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> with over 361 icons. In a single collection, Font Awesome is a pictographic language of web-related actions. Easily style icon color, size, shadow, and anything that's possible with CSS. You can read more about it <a href="http://fortawesome.github.com/Font-Awesome/">here</a>.</p>
+		
+		<p>For more information - <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a></p>
+		
+		<p><h2 id="4"><strong>Portfolio</strong> - <a href="#toc">top</a></h2></p>
+		<p>Portfolio Uses the same grid as columns do, so it's  easy to build portfolio using the same classes as when building a column.Here's the example of Two Columns Portfolio</p>
+		
+		<pre class="brush: html">
+&lt;!-- CONTENT --&gt;
+	&lt;div class=&quot;container filter-portfolio clearfix&quot;&gt;
+		&lt;ul id=&quot;portfolio&quot; class=&quot;clearfix&quot;&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-1&quot; data-type=&quot;category1&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-1.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-1.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Lorem&lt;/span&gt; Ipsum
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;web design&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-2&quot; data-type=&quot;category2&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-2.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-2.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Craes&lt;/span&gt; Nustro
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;tehnology&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-3&quot; data-type=&quot;category3&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-3.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-3.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Sed&lt;/span&gt; Lectus
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;photography &lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-4&quot; data-type=&quot;category1&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-4.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-4.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Amet&lt;/span&gt; Ipsum
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;web design&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-5&quot; data-type=&quot;category2&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-5.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-5.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Mauris&lt;/span&gt; Lectus
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;tehnology&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;
+		&lt;!-- PORTFOLIO ITEM --&gt;
+			&lt;li data-id=&quot;id-6&quot; data-type=&quot;category3&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-6.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-6.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lw-item-caption-container&quot;&gt;
+								&lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+									&lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+										&lt;div class=&quot;item-title-text-container&quot;&gt;
+											&lt;span class=&quot;bold&quot;&gt;Sed&lt;/span&gt; Ipsum
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/a&gt;
+								&lt;div class=&quot;item-caption&quot;&gt;photography &lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			&lt;/li&gt;	
+
+
+		&lt;/ul&gt;
+	&lt;/div&gt;	
+		</pre>
+		<p>Here's the CSS code for Portfolio pages</p>
+		<pre class="brush: css">
+/* PORTFOLIO
+============================================*/
+ul#portfolio {
+	margin:0 ;
+	padding:0 ;
+	transition:none !important;
+}
+.filter-portfolio ul {
+	margin:0 ;
+	padding:0 ;
+}
+ul#filter {
+	margin:0;
+	padding:0;
+	float:right;
+}
+ul#filter li{
+	float:left;
+	margin:0;
+	padding:0;
+}
+ul#filter li a{
+	padding:22px 15px 22px 15px;
+	margin: 0;
+	color:#fff;
+	background-color:#535961;
+	font-size:12px;
+	line-height:18px;
+	font-weight:normal;
+	display:block;
+}
+ul#filter li a:hover{
+	color: #fff ;
+	background-color: #414146;
+}
+
+.filter-portfolio .content-under-container-white {
+   margin-bottom: 25px;
+}
+ul#filter li.current a{
+	position: relative;
+	background-color: #fff;
+	color: #414146 ;
+}
+/******PORTFOLIO SINGLE******/
+ul.project-details {
+	margin:15px 0 15px 0;
+	padding:0;
+}
+.project-details li{
+	height:30px;
+	margin-top:10px;
+	line-height:30px;
+}
+.project-details li:first-child{
+	margin-top:0;
+}
+.port-cat-icon {
+	display:block;
+	float:left;
+	margin-right: 10px;
+	height:30px;
+	width:31px;
+	background-color:#d1d1d1;
+	background-image: url(../images/next-small.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.portfolio-pagination {
+    float: right;
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-pagination li {
+    float: left;
+}
+.portfolio-pagination .pag-next {
+	background-color:#535961;
+    background-image: url(../images/next-small.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 62px;
+    width: 30px;
+}
+.portfolio-pagination .pag-prev {
+	background-color:#535961;
+    background-image: url(../images/prev-small.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 62px;
+    width: 30px;
+}
+.portfolio-pagination .pag-prev:hover,  .portfolio-pagination .pag-next:hover{
+	background-color:#2F343A;
+}
+/******************************************/
+.portfolio-check-list {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-check-list > li:before {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../images/features-check-icon.png);
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	height: 40px;
+	left: 0;
+	width: 40px;
+}
+.portfolio-check-list > li:before {
+    content: "";
+    position: absolute;
+}
+.portfolio-check-list > li {
+    padding-left: 35px;
+    position: relative;
+	line-height:40px;
+}
+.sidebar-item .content-container-white.padding-l-r-15 p {
+	margin:0;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+		</pre>
+		
+		<h3><strong><br><br>Portfolio and Blog Hover effects</strong></h3>
+		<p>All hover effects were made using only CSS. For more details go to <br> Html code for  hover effects:</p>
+		<pre class="brush: html">
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/port-2-6.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/port-2-6.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+		</pre>
+		
+		<p>CSS code for hover effects:</p>
+		<pre class="brush: css">
+/* HOVER EFFECT
+================================================== */
+.view .mask,.view .content {
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   text-align:center;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view a.link {
+	padding:0;
+	margin:0;
+	height:44px;
+	width:44px;
+	display: block;/**/
+	float:left;
+	text-decoration: none;
+	background-color: #fff;
+	background-image: url(../images/link-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.view a.zoom {
+	padding:0;
+	margin:0;
+	height:44px;
+	width:44px;
+	display: block;/**/
+	float:left;
+	text-decoration: none;
+	background-color: #fff;
+	background-image: url(../images/zoom-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.view a.zoom:hover, .view a.link:hover  {
+	background-color: #ffea00;
+}
+.hover-item img {
+   -webkit-transition: all 0.5s linear;
+   -moz-transition: all 0.5s linear;
+   -o-transition: all 0.5s linear;
+   -ms-transition: all 0.5s linear;
+   transition: all 0.5s linear;
+}
+.hover-item .abs {
+	position:absolute;
+	bottom:-47px;
+	left:0px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.hover-item:hover .abs {
+	bottom:0px;
+	left:0px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.portfolio-item .hover-item .abs {
+	position:absolute;
+	bottom:-47px;
+	left:0px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.portfolio-item .hover-item:hover .abs {
+	bottom:0px;
+	left:0px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.blog-item .hover-item .abs {
+	position:absolute;
+	bottom:-47px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.blog-item .hover-item:hover .abs {
+	bottom:0px;
+		transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.hover-item:hover {
+			transition:all 0.5s; 
+	-webkit-transition: all 0.5s; 
+	-o-transition: all 0.5s; 
+	-moz-transition: all 0.5s; 
+	-ms-transition: all 0.5s;
+}
+.hover-item:hover .item-caption, .hover-item:hover .lw-item-caption-container a {
+			transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+.hover-item:hover .lw-item-caption-container a:hover {
+			transition:all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	-ms-transition: all 0.3s;
+}
+
+.view-first a.info {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+			
+
+		</pre>
+
+
+
+	
+		<h2 id="5"><strong>Forms</strong> - <a href="#toc">top</a></h2>
+		<p>Here's the example of main contact form</p>
+		<pre class="brush: html">
+				&lt;form action=&quot;send.php&quot; id=&quot;contact-form&quot; method=&quot;post&quot; class=&quot;clearfix&quot;&gt;			
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Name&lt;/label&gt;
+						&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;Myname&quot; onblur=&quot;if(this.value=='')this.value='Your name...';&quot; onfocus=&quot;if(this.value=='Your name...')this.value='';&quot; value=&quot;Your name...&quot; class=&quot;text requiredField m-bot-20&quot; &gt;
+					&lt;/fieldset &gt;
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Email&lt;/label&gt;	
+						&lt;input type=&quot;text&quot; name=&quot;email&quot; id=&quot;myemail&quot;   onblur=&quot;if(this.value=='')this.value='Your email...';&quot; onfocus=&quot;if(this.value=='Your email...')this.value='';&quot; value=&quot;Your email...&quot;  class=&quot;text requiredField email m-bot-20&quot; &gt;
+					&lt;/fieldset&gt;
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Subject&lt;/label&gt;	
+						&lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;mySubject&quot;  onblur=&quot;if(this.value=='')this.value='Subject...';&quot; onfocus=&quot;if(this.value=='Subject...')this.value='';&quot; value=&quot;Subject...&quot; class=&quot;text requiredField subject m-bot-20&quot; &gt;
+					&lt;/fieldset&gt;	
+					&lt;fieldset class=&quot;field-1-1 left&quot;&gt;
+						&lt;label&gt;Message&lt;/label&gt;
+						&lt;textarea name=&quot;message&quot; id=&quot;Mymessage&quot; rows=&quot;5&quot; cols=&quot;30&quot; class=&quot;text requiredField&quot; onblur=&quot;if(this.value=='')this.value='Your message...';&quot; onfocus=&quot;if(this.value=='Your message...')this.value='';&quot;   &gt;Your message...&lt;/textarea&gt;
+					&lt;/fieldset&gt;
+					&lt;fieldset class=&quot;right m-t-min-1&quot;&gt;
+						&lt;input name=&quot;Mysubmitted&quot; id=&quot;Mysubmitted&quot; value=&quot;SEND&quot; class=&quot;button medium&quot; type=&quot;submit&quot; &gt;
+					&lt;/fieldset&gt;
+				&lt;/form&gt;
+		</pre>
+		<p>CSS Code for form style</p>
+		<pre class="brush: css">
+/* CONTACT FORM
+================================================== */
+
+#contact-form label, #comment-form label{
+	visibility:hidden;
+	display:none;
+}
+.field-1-1 textarea{
+	width:700px;
+	
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #contact-form .field-1-1 textarea  { margin-bottom:-4px;  }
+ .leave-comment-container .field-1-1-comment textarea  { margin-bottom:-4px;  }
+}
+
+.field-1-3 input{
+	width:220px;
+	margin-right:20px;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.field-1-3:nth-of-type(3n) input{
+	margin-right:0;
+}
+
+	
+	/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+ 		/*****CONTACT FORM*****/
+		.field-1-3 input{
+			width:172px;
+			margin-right:20px;
+			-moz-box-sizing: border-box; 
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.field-1-1 textarea {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 556px;
+		}
+		#contact-form .iconed-box {
+			padding-left: 60px;
+			width:172px;
+			-moz-box-sizing: border-box; 
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	}	
+	
+/*  #Mobile (Portrait) (4)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+		/*****CONTACT FORM******/
+		.field-1-3 input{
+			width:300px;
+			margin-right:0px;
+			-moz-box-sizing: border-box; 
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.field-1-1 textarea {
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 300px;
+		}
+				#contact-form .iconed-box {
+			padding-left: 60px;
+			width:300px;
+			-moz-box-sizing: border-box; 
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+	}	
+		</pre>
+	<h2 id="6"><strong>CSS in the template</strong> - <a href="#toc">top</a></h2>
+	<p>All CSS files must be included in the &lt;head&gt; section before the javascript files. Below is all the css files that come with the theme.The default style is "style.css".</p>
+	<p>
+		<ul>
+			<li>ei8fix.css - used for IE8 fix</li>
+			<li>flexslider.css - used for Flexslider (first theme(index.html))</li>
+			<li>flexslider2.css - used for Flexslider (second theme(index2.html))</li>
+			<li>font-awesome.css - used for Font Awesome 3.2.0</li>
+			<li>font-awesome-ie7.css - used for Font Awesome 3.2.0 (fix for ie7)</li>
+			<li>font-awesome-ie7.min.css - used for Font Awesome 3.2.0 (fix for ie7) min. version</li>
+			<li>font-awesome.min.css - used for Font Awesome 3.2.0 min. version</li>
+			<li>font-oswald.css - used for Font Oswald</li>
+			<li>ie-warning.css - used for IE warning message</li>
+			<li>jquery.fancybox-1.3.4.css - used for fancybox plugin</li>
+			<li>reset.css - used for CSS reset</li>
+			<li>sequencejs-theme.modern-slide-in.css - used for sequence slider (1 theme (index3.html))</li>
+			<li>sequencejs-theme.modern-slide-in.ie.css - used for sequence slider (1 theme (index3.html) for ie) </li>
+			<li>sequencejs-theme.modern-slide-in.ie8.css - used for sequence slider (1 theme (index3.html) for ie8) </li>
+			<li>sequencejs-theme.modern-slide-in2.css - used for sequence slider (2 theme (index4.html)) </li>
+			<li>sequencejs-theme.modern-slide-in2.ie.css - used for sequence slider (2 theme (index4.html) for ie) </li>
+			<li>skeleton.css - used for SKELETON framework </li>
+			<li>style.css - main css file </li>
+			<li>style.css - main css file </li>
+			<li>styler.css - used for template style switcher</li>
+			<li>Folder "colors" - here are css files needed to change the color of template</li>
+			<li>Folder "layout" - here are css files needed to change the background of template</li>
+			<li>Folder "switcher" - here are css files needed to style switcher</li>
+
+			
+		</ul>
+	
+	</p>
+<pre class="brush: html">
+&lt;!-- CSS begin --&gt;
+
+		
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/style.css&quot; &gt;
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/skeleton.css&quot; &gt;
+
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/jquery.fancybox-1.3.4.css&quot;  &gt;
+	    &lt;link rel=&quot;stylesheet&quot; href=&quot;css/switcher/style.css&quot;&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/layout/wide.css&quot; id=&quot;layout&quot;&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/colors/yellow.css&quot; id=&quot;colors&quot;&gt;
+
+		&lt;!--[if lte IE 8]&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/ie-warning.css&quot; &gt;&lt;![endif]--&gt;
+		&lt;!--[if lte IE 9]&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; media=&quot;screen&quot; href=&quot;css/style-ie.css&quot; /&gt;&lt;![endif]--&gt;
+		&lt;!--[if lte IE 8]&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/ei8fix.css&quot; &gt;&lt;![endif]--&gt;
+		
+		&lt;!-- flexslider slider CSS --&gt;
+
+		&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/flexslider.css&quot;  &gt;
+		
+        &lt;!--end flexslider slider CSS --&gt;
+		
+ 
+&lt;!-- CSS end --&gt;
+</pre>
+	<h2 id="7"><strong>JavaScript in the template</strong> - <a href="#toc">top</a></h2>	
+	<p>This template uses several jQuery files, all of them are placed in "js" folder.</p>
+	
+	<pre class="brush: html">
+&lt;!-- JS begin --&gt;
+
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-1.8.3.min.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.easing.1.3.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/superfish.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
+		&lt;!-- Flex Slider  --&gt;
+		&lt;script src=&quot;js/jquery.flexslider.js&quot;&gt;&lt;/script&gt; 
+		&lt;script src=&quot;js/flex-slider.js&quot;&gt;&lt;/script&gt; 
+		&lt;!-- end Flex Slider --&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.jcarousel.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.fancybox-1.3.4.pack.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jQuery.BlackAndWhite.min.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.validate.min.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jflickrfeed.min.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.quicksand.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
+		&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-cookie.js&quot;&gt;&lt;/script&gt;  
+		&lt;script src=&quot;js/styleswitcher.js&quot;&gt;&lt;/script&gt;
+		&lt;div class=&quot;switcher&quot;&gt;&lt;/div&gt;
+
+&lt;!-- JS end --&gt;
+	</pre>
+	<p>In "main.js" you have all custom code, wich is well commented and ready to use and update.</p>
+	<pre class="brush: html">
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
+	</pre>
+
+	
+	<h3>Flickr Feeds</h3>
+	<p>To Use flickr feeds you will need a small part of HTML and JavaScript code. Flickr feeds uses a a ul with id "flickrfeed"</p>
+	<pre class="brush: html">
+	&lt;ul id=&quot;flickrfeed&quot; class=&quot;clearfix&quot;&gt;&lt;/ul&gt;
+	</pre>
+	<p>But the real magic happens in JavaScript. In "main.js" and "jflickrfeed.min.js" document you will found code that makes flickr feeds work.</p>
+	<pre class="brush: javascript">
+//FLICKR FEED------------------------------------------------------------------ 
+$(document).ready(function() {		
+	$('#flickrfeed').jflickrfeed({
+		limit: 6,
+		qstrings: {
+			id: '91212552@N07'
+		},
+		itemTemplate:
+		'<li>' +
+			'<a class="lightbox" rel="colorbox" href="{{image}}" title="{{title}}">' +
+				'<img src="{{image_s}}" alt="{{title}}" />' +
+			'</a>' +
+		'</li>'
+	}, function(data) {
+			$(".lightbox").fancybox({
+			'overlayShow'	: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic'
+		});
+	});
+});	
+	</pre>
+	<p>You'll have to replace  id "91212552@N07" with your own, and you can change the "limit:6" wich represents the number of images.</p></br>
+	
+	<h3>Fancybox plugin</h3>
+	<p>This is what makes  fancybox plugin work.</p>
+	<pre class="brush: javascript">
+//FANCYBOX-------------------------------------------------------
+$(document).ready(function() {
+
+	$(".lightbox").live("mousedown", function()
+		{ 
+            $(this).fancybox(
+			{ 
+				'titleShow'		: false,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});	
+		});
+	$("a.iframe").fancybox(
+
+	  { 
+		'titleShow'		: true,
+		'autoDimensions'    : true, 
+		'width'				: 800,
+		'height'			: 450,
+        'autoScale'     	: true,
+		'type'				: 'iframe'
+
+		});	
+	
+});
+
+	</pre>
+	<p>For more information - <a href="http://fancybox.net">http://fancybox.net</a> </p>
+	<br/>
+	
+	<h3>Tabs</h3>
+	<p>If you want you can place tabs in any part of the  page, simple add some HTML markup and little JQuery Code.</p>
+	<pre class="brush: html">
+										&lt;!-- TABS --&gt;
+			
+						&lt;ul class=&quot;tabs-nav&quot;&gt;
+							&lt;li class=&quot;active&quot;&gt;
+								&lt;a href=&quot;#tab1&quot;&gt;First&lt;/a&gt;
+							&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+								&lt;a href=&quot;#tab2&quot;&gt;Second&lt;/a&gt;
+							&lt;/li&gt;
+							&lt;li class=&quot;&quot;&gt;
+								&lt;a href=&quot;#tab3&quot;&gt;Third&lt;/a&gt;
+							&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;div class=&quot;content-container-white tab-main-container&quot;&gt;
+							&lt;div id=&quot;tab1&quot; class=&quot;tab-content&quot; &gt;
+								&lt;ul class=&quot;tab-post-container text&quot;&gt;
+									&lt;li&gt;
+										&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl orci, condim entum ultrices consequat eu, vehicula. Aenean nisl orci.&lt;br&gt;&lt;br&gt;
+										Aenean nisl orci, condim entum ultrices consequat eu, vehicula ac. Lorem ipsum dolor sit amet.&lt;/p&gt;
+									&lt;/li&gt;
+									
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div id=&quot;tab2&quot; class=&quot;tab-content&quot; &gt;
+								&lt;ul class=&quot;tab-post-container text&quot;&gt;
+									&lt;li&gt;
+										&lt;p&gt;Aenean nisl orci, condim entum ultrices consequat eu, vehicula ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl orci.&lt;br&gt;&lt;br&gt;
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl orci, condim entum ultrices consequat eu, vehicula.&lt;/p&gt;
+									&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div id=&quot;tab3&quot; class=&quot;tab-content&quot; &gt;
+								&lt;ul class=&quot;tab-post-container text&quot;&gt;
+									&lt;li&gt;
+										&lt;p&gt;Ut adipiscing, leo nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Ut adipiscing, leo nec. Aenean nisl orci.&lt;br&gt;&lt;br&gt;
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl orci, condim entum ultrices consequat eu, vehicula.&lt;/p&gt;
+									&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+	</pre>
+	<p>Here's the JQuery Code that makes tab work.</p>
+	<pre class="brush: javascript">
+//CONTENT TABS---------------------------------------------------
+$(document).ready(function() {
+
+		var $tabsNav    = $('.tabs-nav'),
+			$tabsNavLis = $tabsNav.children('li'),
+			$tabContent = $('.tab-content');
+
+		$tabsNav.each(function() {
+			var $this = $(this);
+
+			$this.next().children('.tab-content').stop(true,true).hide()
+												 .first().show();
+
+			$this.children('li').first().addClass('active').stop(true,true).show();
+		});
+
+		$tabsNavLis.on('click', function(e) {
+			var $this = $(this);
+
+			$this.siblings().removeClass('active').end()
+				 .addClass('active');
+			
+			$this.parent().next().children('.tab-content').stop(true,true).hide()
+														  .siblings( $this.find('a').attr('href') ).fadeIn();
+
+			e.preventDefault();
+		});
+
+});
+	</pre>
+	<br/>
+	<h3>Sequence slider (1 theme(index3.html))</h3>
+	<p>To make Sequence slider Work you'll need some JQuery code.</p>
+	<pre class="brush: javascript">
+
+var $ = jQuery.noConflict();
+
+//SLIDER
+$(document).ready(function(){
+	//$status = $(".status");
+    var options = {
+        nextButton: true,
+        prevButton: true,
+        animateStartingFrameIn: true,
+		autoPlay: true,
+        autoPlayDelay: 4000,
+        preloader: true,
+        pauseOnHover: false,
+        preloadTheseFrames: [1],
+		preloadTheseImages: [
+            "images/tn-model1-1.jpg",
+            "images/tn-model2-1.jpg",
+            "images/tn-model3-1.jpg"
+        ]
+
+    };
+    
+    var sequence = $("#sequence").sequence(options).data("sequence");
+	
+	    sequence.afterLoaded = function() {
+        $("#sequence-theme .nav").fadeIn(100);
+        $("#sequence-theme .nav li:nth-child("+(sequence.settings.startingFrameID)+") img").addClass("active");
+    };
+
+    sequence.beforeNextFrameAnimatesIn = function() {
+        $("#sequence-theme .nav li:not(:nth-child("+(sequence.nextFrameID)+")) img").removeClass("active");
+        $("#sequence-theme .nav li:nth-child("+(sequence.nextFrameID)+") img").addClass("active");
+    };
+    
+    $("#sequence-theme").on("click", ".nav li", function() {
+        $(this).children("img").removeClass("active").children("img").addClass("active");
+        sequence.nextFrameID = $(this).index()+1;
+        sequence.goTo(sequence.nextFrameID);
+    });
+	   /* sequence.afterNextFrameAnimatesIn = function() {
+        if(sequence.settings.autoPlay && !sequence.hardPaused && !sequence.isPaused) {
+            $status.addClass("active").css("opacity", 1);
+        }
+    };*/
+   /* sequence.beforeCurrentFrameAnimatesOut = function() {
+        if(sequence.settings.autoPlay && !sequence.hardPaused) {
+            $status.css({"opacity": 0}, 500).removeClass("active");
+        }
+    };*/
+
+});
+	</pre>
+	
+		<br/>
+
+	<h3>Sequence slider (2 theme(index4.html))</h3>
+	<p>To make Sequence slider Work you'll need some JQuery code.</p>
+	<pre class="brush: javascript">
+
+var $ = jQuery.noConflict();
+
+//SLIDER
+$(document).ready(function(){
+	//$status = $(".status");
+    var options = {
+        nextButton: true,
+        prevButton: true,
+        animateStartingFrameIn: true,
+		autoPlay: true,
+        autoPlayDelay: 4000,
+        preloader: true,
+        pauseOnHover: false,
+        preloadTheseFrames: [1],
+		preloadTheseImages: [
+            "images/tn-model1.jpg",
+            "images/tn-model2.jpg",
+            "images/tn-model3.jpg"
+        ]
+
+    };
+    
+    var sequence = $("#sequence").sequence(options).data("sequence");
+	
+	    sequence.afterLoaded = function() {
+        $("#sequence-theme .nav").fadeIn(100);
+        $("#sequence-theme .nav li:nth-child("+(sequence.settings.startingFrameID)+") img").addClass("active");
+    };
+
+    sequence.beforeNextFrameAnimatesIn = function() {
+        $("#sequence-theme .nav li:not(:nth-child("+(sequence.nextFrameID)+")) img").removeClass("active");
+        $("#sequence-theme .nav li:nth-child("+(sequence.nextFrameID)+") img").addClass("active");
+    };
+    
+    $("#sequence-theme").on("click", ".nav li", function() {
+        $(this).children("img").removeClass("active").children("img").addClass("active");
+        sequence.nextFrameID = $(this).index()+1;
+        sequence.goTo(sequence.nextFrameID);
+    });
+	   /* sequence.afterNextFrameAnimatesIn = function() {
+        if(sequence.settings.autoPlay && !sequence.hardPaused && !sequence.isPaused) {
+            $status.addClass("active").css("opacity", 1);
+        }
+    };*/
+   /* sequence.beforeCurrentFrameAnimatesOut = function() {
+        if(sequence.settings.autoPlay && !sequence.hardPaused) {
+            $status.css({"opacity": 0}, 500).removeClass("active");
+        }
+    };*/
+
+});
+
+
+	</pre>
+	
+	
+	
+	<p>For more information - <a href="http://www.ianlunn.co.uk/">http://www.ianlunn.co.uk/</a> </p>
+	<br/>
+		
+	<h3>Flexslider Code (1 theme(index.html) and 2 theme (index2.html))</h3>
+	<p>To make Flexslider Code Work you'll need some  JQuery code.</p>
+	<p>To make Flexslider slider (1 theme(index.html) work you'll need some HTML markup and JQuery code.</p>
+		<pre class="brush: javascript">
+
+jQuery(document).ready(function($) {
+
+
+
+// Flex Slider
+  $(window).ready(function() {
+						   
+  $('.flexslider').flexslider({
+	animation: 'fade',
+	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+	slideshow: true,                //Boolean: Animate slider automatically
+	slideshowSpeed: 5000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+	animationSpeed: 800,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+	pauseOnHover: true, 
+	pauseOnAction:false,
+	controlNav: false,
+	directionNav: true,
+	controlsContainer: '.flex-container',
+	start: function(slider) {
+		 var toptitle = $('.slider-1 .flex-active-slide h2').data('toptitle');
+		 var topimage = $('.slider-1 .flex-active-slide .item').data('topimage');
+		 var bottomtext = $('.slider-1 .flex-active-slide p').data('bottomtext');
+		 var bottomlinks = $('.slider-1 .flex-active-slide .links').data('bottomlinks');
+		 
+		 $('.slider-1 .flex-active-slide').find('.item').css({ top: topimage});
+         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '0', opacity: '1'}, 1000);
+		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: toptitle, opacity: '1'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: bottomtext, opacity: '1'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('.links').css({ bottom: bottomlinks});
+		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '0', opacity: '1'}, 1800);
+		 
+		 // remove class loading after start
+		 slider.removeClass('loading');
+      },
+	before: function(slider) {
+         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '-100%', opacity: '0'}, 1000);
+		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: '-100%', opacity: '0'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: '-50%', opacity: '0'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '-100%', opacity: '0'}, 1800);
+      },
+	after: function(slider) {
+		 var toptitle = $('.slider-1 .flex-active-slide h2').data('toptitle');
+		 var topimage = $('.slider-1 .flex-active-slide .item').data('topimage');
+		 var bottomtext = $('.slider-1 .flex-active-slide p').data('bottomtext');
+		 var bottomlinks = $('.slider-1 .flex-active-slide .links').data('bottomlinks');
+		 
+		 $('.slider-1 .flex-active-slide').find('.item').css({ top: topimage});
+         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '0', opacity: '1'}, 1000);
+		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: toptitle, opacity: '1'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: bottomtext, opacity: '1'}, 1500);
+		 $('.slider-1 .flex-active-slide').find('.links').css({ bottom: bottomlinks});
+		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '0', opacity: '1'}, 1800);
+      }
+		});
+  
+  $('.flexslider4').flexslider({
+	animation: 'fade',
+	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+	slideshow: true,                //Boolean: Animate slider automatically
+	slideshowSpeed: 6000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+	animationSpeed: 800,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+	pauseOnHover: true, 
+	pauseOnAction:true,
+	controlNav: false,
+	directionNav: true,
+	controlsContainer: '.flex-container',
+	start: function(slider) {
+		 var bottomtitle = $('.slider-2 .flex-active-slide h2').data('bottomtitle');
+		 var bottomtext = $('.slider-2 .flex-active-slide p').data('bottomtext');
+		 var bottomlinks = $('.slider-2 .flex-active-slide .links').data('bottomlinks');
+		 
+		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: bottomtitle, opacity: '1'}, 1500);
+		 $('.slider-2 .flex-active-slide').find('p').animate({ bottom: bottomtext, opacity: '1'}, 2000);
+		 $('.slider-2 .flex-active-slide').find('.links').animate({ bottom: bottomlinks, opacity: '1'}, 2200);
+		 
+		 // remove class loading after start
+		 slider.removeClass('loading');
+      },
+	before: function(slider) {
+		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: '-20%', opacity: '0'}, 1500);
+		 $('.slider-2 .flex-active-slide').find('p').animate({ bottom: '-50%', opacity: '0'}, 2000);
+		 $('.slider-2 .flex-active-slide').find('.links').animate({ bottom: '-60%', opacity: '0'}, 2200);
+      },
+	after: function(slider) {
+		  var bottomtitle = $('.slider-2 .flex-active-slide h2').data('bottomtitle');
+		 var bottomtext = $('.slider-2 .flex-active-slide p').data('bottomtext');
+		 var bottomlinks = $('.slider-2 .flex-active-slide .links').data('bottomlinks');
+		 
+		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: bottomtitle, opacity: '1'}, 1500);
+		 $('.slider-2 .flex-active-slide').find('p').animate({  bottom: bottomtext, opacity: '1'}, 2000);
+		 $('.slider-2 .flex-active-slide').find('.links').animate({  bottom: bottomlinks, opacity: '1'}, 2200);
+      }
+		});
+  
+  $('.flexslider2').flexslider({
+	animation: 'slide',
+	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+	slideshow: true,                //Boolean: Animate slider automatically
+	slideshowSpeed: 4500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+	animationSpeed: 700,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+	pauseOnHover: true, 
+	pauseOnAction:false,
+	controlNav: false,
+	directionNav: true,
+	controlsContainer: '.flex-container'
+		});
+  
+  $('.flexslider3').flexslider({
+	animation: 'slide',
+	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+	slideshow: false,                //Boolean: Animate slider automatically
+	slideshowSpeed: 4500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+	animationSpeed: 700,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+	pauseOnHover: true, 
+	pauseOnAction:false,
+	controlNav: false,
+	directionNav: true,
+	controlsContainer: '.flex-container'
+		});
+  
+  
+	});
+
+
+								
+});
+	</pre>
+	<p>To make Flexslider slider (2 theme(index2.html) work you'll need some HTML markup and JQuery code.</p>
+	<pre class="brush: javascript">
+//SLIDER
+
+$(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+		pauseOnAction: false,
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+
+    });
+	</pre>
+	
+	<p>For more information - <a href="http://flex.madebymufffin.com">http://flex.madebymufffin.com</a> </p>
+	<br/>
+	
+	<h3>Carousel slider - jCarousel </h3>
+	<p>To make Carousel Slider Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+&lt;!-- LATEST NEWS --&gt;
+	&lt;div class=&quot;container clearfix m-top-60&quot;&gt;
+		&lt;div class=&quot;four columns carousel-intro m-bot-33&quot;&gt;
+
+						&lt;div class=&quot;caption-container m-bot-20&quot;&gt;
+							&lt;div class=&quot;title-block-text&quot;&gt;
+								STAY TUNED.&lt;br&gt;
+								READ OUR&lt;br&gt;
+								&lt;strong&gt;NEWS&lt;/strong&gt;
+							&lt;/div&gt;
+							
+							&lt;div class=&quot;carousel-navi jcarousel-scroll&quot;&gt;
+								&lt;div class=&quot;jcarousel-prev&quot;&gt;&lt;/div&gt;
+								&lt;div class=&quot;jcarousel-next&quot;&gt;&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+			
+		&lt;/div&gt;
+
+		
+		&lt;!-- jCAROUSEL --&gt;
+		&lt;div class=&quot;jcarousel latest-posts-jc m-bot-50&quot; &gt;
+			&lt;ul class=&quot;clearfix&quot;&gt;
+				&lt;!-- LATEST NEWS ITEM --&gt;
+				&lt;li class=&quot;four columns&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/post-2-1.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/post-2-1.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;blog-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lp-item-caption-container&quot;&gt;
+										&lt;a class=&quot;a-invert&quot; href=&quot;blog-single.html&quot; &gt;&lt;span class=&quot;bold&quot;&gt;Craes&lt;/span&gt; Nustro&lt;/a&gt;
+									&lt;div class=&quot;lp-item-container-border clearfix&quot;&gt;
+										&lt;div class=&quot;lp-item-info-container&quot;&gt;
+											10 Okt 2013 | 7 Comments 
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-item-text-container&quot;&gt;
+							&lt;p&gt;Lorem ipsum dolor sit amet, consec at adipiscing elit. Fusce varius lobortis tur pis, eu eleifend odio pharetra sit amet. Aliquam...&lt;/p&gt;
+
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-r-m-container&quot;&gt;
+							&lt;a href=&quot;blog-single.html&quot; class=&quot;r-m-plus-small&quot;&gt;READ MORE&lt;/a&gt;
+						&lt;/div&gt;	
+				&lt;/li&gt;
+
+				&lt;!-- LATEST NEWS ITEM --&gt;
+				&lt;li class=&quot;four columns&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/post-2-2.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/post-2-2.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;blog-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lp-item-caption-container&quot;&gt;
+										&lt;a class=&quot;a-invert&quot; href=&quot;blog-single.html&quot; &gt;&lt;span class=&quot;bold&quot;&gt;Sed&lt;/span&gt; Lectus&lt;/a&gt;
+									&lt;div class=&quot;lp-item-container-border clearfix&quot;&gt;
+										&lt;div class=&quot;lp-item-info-container&quot;&gt;
+											10 Okt 2013 | 7 Comments 
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-item-text-container&quot;&gt;
+							&lt;p&gt;Lorem ipsum dolor sit amet, consec at adipiscing elit. Fusce varius lobortis tur pis, eu eleifend odio pharetra sit amet. Aliquam...&lt;/p&gt;
+
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-r-m-container&quot;&gt;
+							&lt;a href=&quot;blog-single.html&quot; class=&quot;r-m-plus-small&quot;&gt;READ MORE&lt;/a&gt;
+						&lt;/div&gt;	
+				&lt;/li&gt;
+
+				&lt;!-- LATEST NEWS ITEM --&gt;
+				&lt;li class=&quot;four columns&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/post-2-3.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/post-2-3.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;blog-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lp-item-caption-container&quot;&gt;
+										&lt;a class=&quot;a-invert&quot; href=&quot;blog-single.html&quot; &gt;&lt;span class=&quot;bold&quot;&gt;Lorem&lt;/span&gt; Ipsum&lt;/a&gt;
+									&lt;div class=&quot;lp-item-container-border clearfix&quot;&gt;
+										&lt;div class=&quot;lp-item-info-container&quot;&gt;
+											10 Okt 2013 | 7 Comments 
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-item-text-container&quot;&gt;
+							&lt;p&gt;Lorem ipsum dolor sit amet, consec at adipiscing elit. Fusce varius lobortis tur pis, eu eleifend odio pharetra sit amet. Aliquam...&lt;/p&gt;
+
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-r-m-container&quot;&gt;
+							&lt;a href=&quot;blog-single.html&quot; class=&quot;r-m-plus-small&quot;&gt;READ MORE&lt;/a&gt;
+						&lt;/div&gt;	
+				&lt;/li&gt;
+
+				&lt;!-- LATEST NEWS ITEM --&gt;
+				&lt;li class=&quot;four columns&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/post-2-4.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/post-2-4.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;blog-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lp-item-caption-container&quot;&gt;
+										&lt;a class=&quot;a-invert&quot; href=&quot;blog-single.html&quot; &gt;&lt;span class=&quot;bold&quot;&gt;Lorem&lt;/span&gt; Ipsum&lt;/a&gt;
+									&lt;div class=&quot;lp-item-container-border clearfix&quot;&gt;
+										&lt;div class=&quot;lp-item-info-container&quot;&gt;
+											10 Okt 2013 | 7 Comments 
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-item-text-container&quot;&gt;
+							&lt;p&gt;Lorem ipsum dolor sit amet, consec at adipiscing elit. Fusce varius lobortis tur pis, eu eleifend odio pharetra sit amet. Aliquam...&lt;/p&gt;
+
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-r-m-container&quot;&gt;
+							&lt;a href=&quot;blog-single.html&quot; class=&quot;r-m-plus-small&quot;&gt;READ MORE&lt;/a&gt;
+						&lt;/div&gt;	
+				&lt;/li&gt;
+
+				&lt;!-- LATEST NEWS ITEM --&gt;
+				&lt;li class=&quot;four columns&quot;&gt;
+						&lt;div class=&quot;hover-item&quot;&gt;
+							&lt;div class=&quot;view view-first&quot;&gt;
+								&lt;img src=&quot;images/content/post-2-5.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+								&lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;	
+								&lt;div class=&quot;abs&quot;&gt;
+									&lt;a href=&quot;images/content/post-2-5.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;blog-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+								&lt;/div&gt;	
+							&lt;/div&gt;
+							&lt;div class=&quot;lp-item-caption-container&quot;&gt;
+										&lt;a class=&quot;a-invert&quot; href=&quot;blog-single.html&quot; &gt;&lt;span class=&quot;bold&quot;&gt;Lorem&lt;/span&gt; Ipsum&lt;/a&gt;
+									&lt;div class=&quot;lp-item-container-border clearfix&quot;&gt;
+										&lt;div class=&quot;lp-item-info-container&quot;&gt;
+											10 Okt 2013 | 7 Comments 
+										&lt;/div&gt;
+									&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-item-text-container&quot;&gt;
+							&lt;p&gt;Lorem ipsum dolor sit amet, consec at adipiscing elit. Fusce varius lobortis tur pis, eu eleifend odio pharetra sit amet. Aliquam...&lt;/p&gt;
+
+						&lt;/div&gt;
+						&lt;div class=&quot;lp-r-m-container&quot;&gt;
+							&lt;a href=&quot;blog-single.html&quot; class=&quot;r-m-plus-small&quot;&gt;READ MORE&lt;/a&gt;
+						&lt;/div&gt;	
+				&lt;/li&gt;
+
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;!-- jCAROUSEL End --&gt;
+	&lt;/div&gt;	
+&lt;!-- OUR NEWS End --&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+
+//CAROUSEL--------------------------------------------------------
+
+(function($){
+	$(document).ready(function(){
+
+// Add classes for other carousels
+var $carousel = $('.latest-work-jc, .latest-posts-jc, .testimonials-jc');
+
+var scrollCount;
+
+function adjustScrollCount() {
+	if( $(window).width() < 768 ) {
+		scrollCount = 1;
+	} else {
+		scrollCount = 1;
+	}
+
+}
+
+function adjustCarouselHeight() {
+
+	$carousel.each(function() {
+		var $this    = $(this);
+		var maxHeight = -1;
+		$this.find('li').each(function() {
+			maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+		});
+		$this.height(maxHeight);
+	});
+}
+function initCarousel() {
+	adjustCarouselHeight();
+	adjustScrollCount();
+	var i = 0;
+	var g = {};
+	$carousel.each(function() {
+		i++;
+
+		var $this = $(this);
+		g[i] = $this.jcarousel({
+			animation           : 500,
+			scroll              : scrollCount,
+			wrap: 'circular'
+		});
+		$this.jcarousel('scroll', 0);
+		 $this.prev().find('.jcarousel-prev').bind('active.jcarouselcontrol', function() {
+			$(this).addClass('active');
+		}).bind('inactive.jcarouselcontrol', function() {
+			$(this).removeClass('active');
+		}).jcarouselControl({
+			target: '-='+scrollCount,
+			carousel: g[i]
+		});
+
+		$this.prev().find('.jcarousel-next').bind('active.jcarouselcontrol', function() {
+			$(this).addClass('active');
+		}).bind('inactive.jcarouselcontrol', function() {
+			$(this).removeClass('active');
+		}).jcarouselControl({
+			target: '+='+scrollCount,
+			carousel: g[i]
+		});
+
+		$this.touchwipe({
+		wipeLeft: function() {
+			$this.jcarousel('scroll','+='+scrollCount);
+		},
+		wipeRight: function() {
+			$this.jcarousel('scroll','-='+scrollCount);
+		}
+	});
+
+	});
+}
+$(window).load(function(){
+	initCarousel();
+});
+
+$(window).resize(function () {
+	$carousel.each(function() {
+		var $this = $(this);
+		$this.jcarousel('destroy');
+	});
+	initCarousel();
+});
+
+
+});
+
+})(this.jQuery);
+	</pre>
+	<p>For more information - <a href="http://sorgalla.com/jcarousel/">http://sorgalla.com/jcarousel/</a> </p>
+	<br/>
+	
+	<h3>Form validation </h3>
+	<p>To make Form validation Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+				&lt;form action=&quot;send.php&quot; id=&quot;contact-form&quot; method=&quot;post&quot; class=&quot;clearfix&quot;&gt;			
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Name&lt;/label&gt;
+						&lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;Myname&quot; onblur=&quot;if(this.value=='')this.value='Your name...';&quot; onfocus=&quot;if(this.value=='Your name...')this.value='';&quot; value=&quot;Your name...&quot; class=&quot;text requiredField m-bot-20&quot; &gt;
+					&lt;/fieldset &gt;
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Email&lt;/label&gt;	
+						&lt;input type=&quot;text&quot; name=&quot;email&quot; id=&quot;myemail&quot;   onblur=&quot;if(this.value=='')this.value='Your email...';&quot; onfocus=&quot;if(this.value=='Your email...')this.value='';&quot; value=&quot;Your email...&quot;  class=&quot;text requiredField email m-bot-20&quot; &gt;
+					&lt;/fieldset&gt;
+					&lt;fieldset class=&quot;field-1-3 left&quot;&gt;
+						&lt;label&gt;Subject&lt;/label&gt;	
+						&lt;input type=&quot;text&quot; name=&quot;subject&quot; id=&quot;mySubject&quot;  onblur=&quot;if(this.value=='')this.value='Subject...';&quot; onfocus=&quot;if(this.value=='Subject...')this.value='';&quot; value=&quot;Subject...&quot; class=&quot;text requiredField subject m-bot-20&quot; &gt;
+					&lt;/fieldset&gt;	
+					&lt;fieldset class=&quot;field-1-1 left&quot;&gt;
+						&lt;label&gt;Message&lt;/label&gt;
+						&lt;textarea name=&quot;message&quot; id=&quot;Mymessage&quot; rows=&quot;5&quot; cols=&quot;30&quot; class=&quot;text requiredField m-bot-20&quot; onblur=&quot;if(this.value=='')this.value='Your message...';&quot; onfocus=&quot;if(this.value=='Your message...')this.value='';&quot;   &gt;Your message...&lt;/textarea&gt;
+					&lt;/fieldset&gt;
+					&lt;fieldset class=&quot;left&quot;&gt;
+						&lt;input name=&quot;Mysubmitted&quot; id=&quot;Mysubmitted&quot; value=&quot;SEND&quot; class=&quot;button medium&quot; type=&quot;submit&quot; &gt;
+					&lt;/fieldset&gt;
+				&lt;/form&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//FORM VALIDATION JAVASCRIPT----------------------------------------------------
+$(document).ready(function() {
+	$('form#contact-form').submit(function() {
+		$('form#contact-form .styled-box.iconed-box.error').remove();
+		var hasError = false;
+		$('.requiredField').each(function() {
+			if(jQuery.trim($(this).val()) == '') {
+            	var labelText = $(this).prev('label').text();
+            	$(this).parent().append('<div class="styled-box iconed-box error">You forgot to enter your '+labelText+'</div>');
+            	$(this).addClass('inputError');
+            	hasError = true;
+            } else if($(this).hasClass('email')) {
+            	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            	if(!emailReg.test(jQuery.trim($(this).val()))) {
+            		var labelText = $(this).prev('label').text();
+            		$(this).parent().append('<div class="styled-box iconed-box error">You entered an invalid '+labelText+'</div>');
+            		$(this).addClass('inputError');
+            		hasError = true;
+            	}
+            }
+		});
+		if(!hasError) {
+			$('form#contact-form input.submit').fadeOut('normal', function() {
+				$(this).parent().append('');
+			});
+			var formInput = $(this).serialize();
+			$.post($(this).attr('action'),formInput, function(data){
+				$('form#contact-form').slideUp("fast", function() {
+					$(this).before('<p class="styled-box iconed-box success">Your email was successfully sent. We will contact you as soon as possible.</p>');
+				});
+			});
+		}
+
+		return false;
+
+	});
+});
+	</pre>
+	<p>For more information - <a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">http://bassistance.de/jquery-plugins/jquery-plugin-validation/</a> </p>
+	</br>
+	
+	<h3>Dropdown menu - Superfish v1.4.8 - jQuery menu widget </h3>
+	<p>To make Dropdown menu work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+					&lt;!-- TOP MENU --&gt;
+            &lt;nav id=&quot;main-nav&quot;&gt;
+                &lt;ul class=&quot;sf-menu clearfix&quot;&gt;
+                    &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;index2.html&quot;&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index3.html&quot;&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index4.html&quot;&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index5.html&quot;&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Features&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;about-us.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;services.html&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Elements&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;icons.html&quot;&gt;Icons&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;pricing-tables.html&quot;&gt;Pricing tables&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404 Error&lt;/a&gt;&lt;/li&gt;
+ 
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;Portfolio&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;2 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio3.html&quot;&gt;3 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio4.html&quot;&gt;4 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio-single.html&quot;&gt;Portfolio single&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3D level menu&lt;/a&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Blog-single&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li &gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                     
+              &lt;/ul&gt;
+            &lt;/nav&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//DROPDOWN MENU--------------------------------------------------
+$(document).ready(function(){
+				$('ul.sf-menu').superfish({
+				autoArrows:  false,
+				dropShadows: false
+				});
+			});
+			
+
+	</pre>
+	<br/>
+	
+	<h3>Adaptive menu - jQuery menu widget </h3>
+	<p>To make Adaptive menu work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+					&lt;!-- TOP MENU --&gt;
+            &lt;nav id=&quot;main-nav&quot;&gt;
+                &lt;ul class=&quot;sf-menu clearfix&quot;&gt;
+                    &lt;li class=&quot;current&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;index2.html&quot;&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index3.html&quot;&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index4.html&quot;&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;index5.html&quot;&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Features&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;about-us.html&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;services.html&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;elements.html&quot;&gt;Elements&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;icons.html&quot;&gt;Icons&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;pricing-tables.html&quot;&gt;Pricing tables&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404 Error&lt;/a&gt;&lt;/li&gt;
+ 
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;Portfolio&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio.html&quot;&gt;2 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio3.html&quot;&gt;3 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio4.html&quot;&gt;4 column&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;portfolio-single.html&quot;&gt;Portfolio single&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3D level menu&lt;/a&gt;
+                                &lt;ul&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Menu item&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;blog.html&quot;&gt;Blog&lt;/a&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;blog-single.html&quot;&gt;Blog-single&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/li&gt;
+                    &lt;li &gt;&lt;a href=&quot;contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                     
+              &lt;/ul&gt;
+            &lt;/nav&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//ADAPTIVE MENU
+$(document).ready(function(){
+	// add select 
+	$('&lt;select /&gt;').appendTo('nav#main-nav');
+
+	//add options to select
+	$('&lt;option /&gt;', {
+		'selected': 'selected',
+		'value' : '',
+		'text': 'Choise Page...'
+	}).appendTo('nav select');
+
+	$('nav#main-nav ul li a').each(function(){
+		var target = $(this);
+
+		$('&lt;option /&gt;', {
+			'value' : target.attr('href'),
+			'text': target.text()
+		}).appendTo('nav#main-nav select');
+
+	});
+
+	//  onclicking 
+	$('nav#main-nav select').on('change',function(){
+		window.location = $(this).find('option:selected').val();
+	});
+});
+	</pre>
+	<br/>
+	
+	<h3>Black and white hover effect </h3>
+	<p>To make Black and white hover effect Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+	&lt;!-- OUR CLIENTS --&gt;
+	&lt;div class=&quot;container m-bot-35 clearfix&quot;&gt;
+			&lt;ul class=&quot;our-clients-container clearfix&quot;&gt;
+				&lt;li class=&quot;content-container-white&quot;&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;div class=&quot;bw-wrapper&quot;&gt;
+							&lt;img src=&quot;images/logo1.png&quot; alt=&quot;client&quot; &gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;content-container-white&quot;&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;div class=&quot;bw-wrapper&quot;&gt;
+							&lt;img src=&quot;images/logo2.png&quot; alt=&quot;client&quot; &gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;content-container-white&quot;&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;div class=&quot;bw-wrapper&quot;&gt;
+							&lt;img src=&quot;images/logo3.png&quot; alt=&quot;client&quot;&gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;content-container-white&quot;&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;div class=&quot;bw-wrapper&quot;&gt;
+							&lt;img src=&quot;images/logo4.png&quot; alt=&quot;client&quot; &gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li class=&quot;content-container-white&quot;&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;div class=&quot;bw-wrapper&quot;&gt;
+							&lt;img src=&quot;images/logo5.png&quot; alt=&quot;client&quot; &gt;
+						&lt;/div&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+            &lt;/ul&gt;
+	&lt;/div&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//BLACK & WHITE HOVER EFFECT--------------------------------------
+$(window).load(function(){
+    $('.bw-wrapper').BlackAndWhite({
+        hoverEffect : true, // default true
+        speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+            fadeIn: 200, // 200ms for fadeIn animations
+            fadeOut: 300 // 800ms for fadeOut animations
+        }
+    });
+});	
+	</pre>
+	<p>For more information - <a href="http://www.gianlucaguarini.com/">http://www.gianlucaguarini.com/</a> </p>
+	</br>
+	
+	
+	<h3>Back to top</h3>
+	<p>To make Back to top Work you'll need some HTML markup and JQuery code. </br> Example of html code:</p>
+	<pre class="brush: html">
+
+		&lt;p id=&quot;back-top&quot;&gt;
+			&lt;a href=&quot;#top&quot; title=&quot;Back to Top&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+		&lt;/p&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//SCROLL TO TOP----------------------------------------------------
+$(document).ready(function(){
+	
+	$('.scrollup').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 600);
+					return false;
+				});
+				
+});
+	</pre>
+	<br/>
+	
+	
+	<h3>Portfolio filter </h3>
+	<p>To make Portfolio filter hover effect Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+&lt;!-- CONTENT --&gt;
+    &lt;div class=&quot;container filter-portfolio clearfix&quot;&gt;
+        &lt;ul id=&quot;portfolio&quot; class=&quot;clearfix&quot;&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-1&quot; data-type=&quot;category1&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-1.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-1.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Lorem&lt;/span&gt; Ipsum
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;web design&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-2&quot; data-type=&quot;category2&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-2.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-2.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Craes&lt;/span&gt; Nustro
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;tehnology&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-3&quot; data-type=&quot;category3&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-3.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-3.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Sed&lt;/span&gt; Lectus
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;photography &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-4&quot; data-type=&quot;category1&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-4.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-4.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Amet&lt;/span&gt; Ipsum
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;web design&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-5&quot; data-type=&quot;category2&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-5.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-5.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Mauris&lt;/span&gt; Lectus
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;tehnology&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;!-- PORTFOLIO ITEM --&gt;
+            &lt;li data-id=&quot;id-6&quot; data-type=&quot;category3&quot; class=&quot;eight columns m-bot-35&quot;&gt;
+                        &lt;div class=&quot;hover-item&quot;&gt;
+                            &lt;div class=&quot;view view-first&quot;&gt;
+                                &lt;img src=&quot;images/content/port-2-6.jpg&quot; alt=&quot;Ipsum&quot; &gt;
+                                &lt;div class=&quot;mask&quot;&gt;&lt;/div&gt;    
+                                &lt;div class=&quot;abs&quot;&gt;
+                                    &lt;a href=&quot;images/content/port-2-6.jpg&quot; class=&quot;lightbox zoom info&quot;&gt;&lt;/a&gt;&lt;a href=&quot;portfolio-single.html&quot; class=&quot;link info&quot;&gt;&lt;/a&gt;
+                                &lt;/div&gt;    
+                            &lt;/div&gt;
+                            &lt;div class=&quot;lw-item-caption-container&quot;&gt;
+                                &lt;a class=&quot;a-invert&quot; href=&quot;portfolio-single.html&quot; &gt;
+                                    &lt;div class=&quot;item-title-main-container clearfix&quot;&gt;
+                                        &lt;div class=&quot;item-title-text-container&quot;&gt;
+                                            &lt;span class=&quot;bold&quot;&gt;Sed&lt;/span&gt; Ipsum
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/a&gt;
+                                &lt;div class=&quot;item-caption&quot;&gt;photography &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/li&gt; 
+ 
+ 
+        &lt;/ul&gt;
+    &lt;/div&gt;    
+	</pre>
+	
+	<pre class="brush: javascript">
+//PORTFOLIO FILTER----------------------------------------------------------------
+$(document).ready(function(){
+	
+	// Clone portfolio items to get a second collection for Quicksand plugin
+	var $portfolioClone = $("#portfolio").clone();
+	
+	// Attempt to call Quicksand on every click event handler
+	$("#filter a").click(function(e){
+		
+		$("#filter li").removeClass("current");	
+		
+		// Get the class attribute value of the clicked link
+		var $filterClass = $(this).parent().attr("class");
+
+		if ( $filterClass == "all" ) {
+			var $filteredPortfolio = $portfolioClone.find("li");
+		} else {
+			var $filteredPortfolio = $portfolioClone.find("li[data-type~=" + $filterClass + "]");
+		}
+		
+		// Call quicksand
+		$("#portfolio").quicksand( $filteredPortfolio, { 
+			duration: 800, 
+			easing: 'swing' 
+		});
+
+
+		$(this).parent().addClass("current");
+
+	})
+});		
+	</pre>
+	<p>For more information - <a href="http://razorjack.net/quicksand">http://razorjack.net/quicksand</a> </p>
+	</br>
+	
+	
+	<h3>Accordion </h3>
+	<p>To make Accordion Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+					&lt;!-- Accordion --&gt;
+					&lt;div class=&quot;in-one-third in-column&quot;&gt;
+						&lt;h3 class=&quot;title-block&quot;&gt;Accordion&lt;/h3&gt;
+						
+						&lt;div id=&quot;accordion&quot;&gt;
+					
+						  &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Lorem ipsum&lt;/a&gt;&lt;/h3&gt;
+						  &lt;div&gt;
+							&lt;p&gt;Nunc ipsum risus, bibendum quis tincidunt a, tempor quis nunc. Aenean in odio in sapien porttitor sodales.&lt;/p&gt;
+						  &lt;/div&gt;
+						  
+						  &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Vestilum pulvinar&lt;/a&gt;&lt;/h3&gt;
+						  &lt;div&gt;
+							&lt;p&gt;Nunc ipsum risus, bibendum quis tincidunt a, tempor quis nunc. Aenean in odio in sapien porttitor sodales.&lt;/p&gt;
+						  &lt;/div&gt;
+						  
+						  &lt;h3&gt;&lt;a href=&quot;#&quot;&gt;Donec sedin&lt;/a&gt;&lt;/h3&gt;
+						  &lt;div&gt;
+						  &lt;p&gt;Nunc ipsum risus, bibendum quis tincidunt a, tempor quis nunc. Aenean in odio in sapien porttitor sodales.&lt;/p&gt;
+						  &lt;/div&gt; 
+					 
+						&lt;/div&gt;&lt;!-- End accordion --&gt;
+						
+					&lt;/div&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//ACCORDION-----------------------------------------------------
+$(document).ready(function() {
+    $("#accordion").accordion({
+	  autoHeight: false,
+	   /*icons: { "header": "plus", "headerSelected": "minus" }*/
+	});
+});	
+	</pre>
+	
+	</br>
+	<h3>Toggle </h3>
+	<p>To make Toggle Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+					&lt;!-- Toggle --&gt;
+					&lt;div class=&quot;in-one-third in-column&quot;&gt;
+						&lt;h3 class=&quot;title-block&quot;&gt;Toggle&lt;/h3&gt;
+						&lt;ul id=&quot;toggle-view&quot;&gt;
+							&lt;li&gt;
+								&lt;h3 class=&quot;ui-accordion-header&quot;&gt;&lt;span class=&quot;link&quot;&gt;&lt;/span&gt;Lorem ipsum&lt;/h3&gt;
+								&lt;div class=&quot;panel&quot;&gt;
+									&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
+									neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/li&gt;
+							&lt;li&gt;
+								&lt;h3 class=&quot;ui-accordion-header&quot;&gt;&lt;span class=&quot;link&quot;&gt;&lt;/span&gt;Vestilum pulvinar&lt;/h3&gt;
+								&lt;div class=&quot;panel&quot;&gt;
+									&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
+									neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/li&gt;
+							&lt;li&gt;
+								&lt;h3 class=&quot;ui-accordion-header&quot;&gt;&lt;span class=&quot;link&quot;&gt;&lt;/span&gt;Donec sedin&lt;/h3&gt;
+								&lt;div class=&quot;panel&quot;&gt;
+									&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus 
+									neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/div&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+//TOGGLE-------------------------------------------------------
+$(document).ready(function () {
+	
+	$('#toggle-view li').click(function () {
+
+		var text = $(this).children('div.panel');
+
+		if (text.is(':hidden')) {
+			text.slideDown('10');
+			$(this).children('.ui-accordion-header').addClass('ui-accordion-header-active');		
+		} else {
+			text.slideUp('10');
+			$(this).children('.ui-accordion-header').removeClass('ui-accordion-header-active');		
+		}
+
+	});
+
+});
+	</pre>
+	
+	</br>	
+		<h3>Google Maps </h3>
+	<p>To make Google Maps Work you'll need some HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+				&lt;!-- JS --&gt;
+				&lt;script src=&quot;http://maps.google.com/maps/api/js?sensor=true&quot;&gt;&lt;/script&gt;
+				&lt;script src=&quot;js/jquery.gmap.min.js&quot;&gt;&lt;/script&gt;
+				
+				&lt;!-- Google Maps --&gt;
+					&lt;section class=&quot;google-map-container&quot;&gt;
+
+						&lt;div id=&quot;googlemaps&quot; class=&quot;google-map&quot;&gt;&lt;/div&gt;
+
+					&lt;/section&gt;
+				&lt;!-- Google Maps / End --&gt;
+	</pre>
+	
+	<pre class="brush: javascript">
+						jQuery('#googlemaps').gMap({
+							maptype: 'ROADMAP',
+							scrollwheel: false,
+							zoom: 16,
+							markers: [
+								{
+									address: 'Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia', // Your Adress Here
+									html: '',
+									popup: false,
+								}
+							],
+						});
+	</pre>
+	
+	</br>
+	
+	<h3>Style Switcher </h3>
+	<p>Style Switcher used for quick change colors or backgroud of template, if you do not need them, you can simply delete the code. To make Style Switcher work you'll need some CSS, HTML markup and JQuery code.</br> Example of html code:</p>
+	<pre class="brush: html">
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/switcher/style.css&quot;&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/layout/wide.css&quot; id=&quot;layout&quot;&gt;
+		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/colors/yellow.css&quot; id=&quot;colors&quot;&gt;
+		
+		&lt;script src=&quot;js/styleswitcher.js&quot;&gt;&lt;/script&gt;
+		&lt;div class=&quot;switcher&quot;&gt;&lt;/div&gt;	
+	</pre>
+	
+	
+	
+	</br>	
+	
+	
+	<h2 id="8"><strong>PHP in the template</strong> - <a href="#toc">top</a></h2>	
+	<p>This template uses PHP for Contact Form, it's calles "send.php"</p>
+	<pre class="brush: php">
+	<?php
+	if($_POST){
+		$to = 'example@example.com';/*Put Yuur Email Adress Here*/
+		$subject = $_POST['subject'];
+		$from_name = $_POST['name'];
+		$from_email = $_POST['email'];
+		$message = $_POST['message'];
+		$header = "From: $from_name <$from_email>";
+		mail($to, $subject, $message, $header);		
+	}
+?>
+	</pre>
+	<p>You'll need to change  "$to" part. So instead of "example@example.com" replace it with your Email adress, and that's all.</p>
+	<h2 id="9"><strong>PSD files</strong> - <a href="#toc">top</a></h2>	
+	<p>I've Included  PSD file in "PSD" folder.Layers are named, grouped and slices are named, ready to be export in PNG or JPG file if you want to change graphic element.</p>
+	
+<h2 id="10"><strong>Credits and helpfull links</strong> - <a href="#toc">top</a></h2>	
+<h4><strong>Fonts</strong></h4>
+<ul>
+<li><a href="http://www.google.com/webfonts/specimen/Open+Sans">Open Sans</a></li>
+<li><a href="http://www.google.com/webfonts/specimen/Oswald">Oswald</a></li>
+</ul>
+
+		
+<h4><strong>Helpfull links</strong></h4>
+<ul>
+
+<li><a href="http://www.getskeleton.com">Skeleton framework</a></li>
+<li><a href="http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/">Hover effect</a></li>
+
+<li><a href="http://www.newmediacampaigns.com/page/jquery-flickr-plugin">Flickr feeds</a></li>
+<li><a href="http://fancybox.net">Fancy box</a></li>
+<li><a href="http://www.ianlunn.co.uk/">Sequence slider</a></li>
+<li><a href="http://flex.madebymufffin.com">Flex slider</a></li>
+<li><a href="http://sorgalla.com/jcarousel/">jQuery Carousel</a></li>
+<li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">Form validation</a></li>
+<li><a href="http://www.gianlucaguarini.com/">Black and white hover effect</a></li>
+<li><a href="http://razorjack.net/quicksand">Portfolio filter</a></li>
+<li><a href="http://www.google.com/webfonts">Google Fonts</a></li>
+<li><a href="http://code.google.com/intl/pl-PL/apis/maps/documentation/javascript/basics.html">Google maps API</a></li>
+<li><a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a></li>
+
+
+</ul>	<hr>	
+
+		<h2><strong>End of documentation</strong></h2>
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+		<p class="append-bottom alt large"><strong>abcgomel</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+		
+
+	</div>
+	<!-- end div .container --> 
+
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+</body>
+</html>
