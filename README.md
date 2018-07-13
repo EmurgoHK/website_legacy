@@ -6,6 +6,23 @@ Emurgo Hong Kong operates independently and therefor requires it's own website t
 ## The solution
 This repository contains the files used to render emurgohk.io. The site itself builds directly from master (docs directory). Pull requests that are merged are immediately (or thereabouts) reflected on the site itself.
 
+## How to run locally 
+Ensure that you have the latest version of `nodejs` and `npm` installed
+
+#### Clone repository    
+```
+git clone https://github.com/[github_usernamae]/website.git
+```
+#### Install Dependencies   
+```
+cd website/ && npm install
+```
+
+#### Run website
+`npm run website`
+(use `npm run docs` to run THEME documentation found at `HELP/`)
+
+
 ## Contributing to the EmurgoHK Website 
 A cardinal sin that many open source developers make is to place themselves above others. "I founded this project thus my intellect is superior to that of others". It's immodest and rude, and usually inaccurate. The contribution policy we use at Emurgis applies equally to everyone, without distinction.    
 
