@@ -88,7 +88,7 @@ ul.social-links li {
     list-style: none outside none;
 	float:left;
 }
-.facebook-link, .skype-link, .twitter-link, .flickr-link, .vimeo-link, .dribbble-link, .linkedin-link, .rss-link, .googleplus-link, .pintrest-link  {
+.facebook-link, .twitter-link, .linkedin-link, .rss-link, .medium-link, .youtube-link, .telegram-link, .meetup-link  {
 	height:56px;
 	width:56px;
 	display:block;
@@ -101,26 +101,14 @@ ul.social-links li {
 	-moz-transition: all 0.3s; 
 	-ms-transition: all 0.3s;
 }
-.facebook-link:hover, .skype-link:hover, .twitter-link:hover, .flickr-link:hover, .vimeo-link:hover, .dribbble-link:hover, .linkedin-link:hover, .rss-link:hover, .googleplus-link:hover, .pintrest-link:hover {
+.facebook-link:hover, .twitter-link:hover, .linkedin-link:hover, .rss-link:hover, .medium-link:hover, .youtube-link:hover, .telegram-link:hover, .meetup-link:hover {
 	background-color:#2f343a;
 }
 .facebook-link {
 	background-image: url(../images/social/facebook.png);
 }
-.skype-link {
-	background-image: url(../images/social/skype.png);	
-}
 .twitter-link {
 	background-image: url(../images/social/twitter.png);
-}
-.flickr-link {
-	background-image: url(../images/social/flickr.png);
-}
-.vimeo-link {
-	background-image: url(../images/social/vimeo.png);
-}
-.dribbble-link {
-	background-image: url(../images/social/dribbble.png);
 }
 .linkedin-link {
 	background-image: url(../images/social/linkedin.png);	
@@ -128,29 +116,17 @@ ul.social-links li {
 .rss-link {
 	background-image: url(../images/social/rss.png);
 }
-.googleplus-link {
-	background-image: url(../images/social/googleplus.png);
-}
-.pintrest-link {
-	background-image: url(../images/social/pintrest.png);
+.medium-link, .youtube-link, .telegram-link, .meetup-link {
+	font-size: 14px;
+    text-align: center;
+    color: #3f3f44;
+    line-height: 55px;
 }
 .facebook-link:hover {
 	background-image: url(../images/social/facebook-hover.png);
 }
-.skype-link:hover {
-	background-image: url(../images/social/skype-hover.png);	
-}
 .twitter-link:hover {
 	background-image: url(../images/social/twitter-hover.png);
-}
-.flickr-link:hover {
-	background-image: url(../images/social/flickr-hover.png);
-}
-.vimeo-link:hover {
-	background-image: url(../images/social/vimeo-hover.png);
-}
-.dribbble-link:hover {
-	background-image: url(../images/social/dribbble-hover.png);
 }
 .linkedin-link:hover {
 	background-image: url(../images/social/linkedin-hover.png);	
@@ -158,11 +134,8 @@ ul.social-links li {
 .rss-link:hover {
 	background-image: url(../images/social/rss-hover.png);
 }
-.googleplus-link:hover {
-	background-image: url(../images/social/googleplus-hover.png);
-}
-.pintrest-link:hover {
-	background-image: url(../images/social/pintrest-hover.png);
+.medium-link:hover, .youtube-link:hover, .telegram-link:hover, .meetup-link:hover {
+	color: #fff;
 }
 
 
