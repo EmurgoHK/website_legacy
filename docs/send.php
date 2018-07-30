@@ -1,6 +1,6 @@
 <?php
 	if($_POST){
-		$to = 'abcgomelcopyright@gmail.com';/*Put Your Email Adress Here*/
+		$to = 'info@emurgohk.io';/*Put Your Email Adress Here*/
 		$subject = $_POST['subject'];
 		$from_name = $_POST['name'];
 		$from_email = $_POST['email'];
