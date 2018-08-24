@@ -1,7 +1,7 @@
 # Emurgo Hong Kong Website    
 
 ## The problem
-Emurgo Hong Kong operates independently and therefor requires it's own website to distinguish itself from the rest of the Emurgo group.
+Emurgo Hong Kong operates independently and therefore requires it's own website to distinguish itself from the rest of the Emurgo group.
 
 ## The solution
 This repository contains the files used to render emurgohk.io. The site itself builds directly from master (docs directory). Pull requests that are merged are immediately (or thereabouts) reflected on the site itself.
